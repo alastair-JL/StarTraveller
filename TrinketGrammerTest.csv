@@ -1,0 +1,26 @@
+"~Armour~";"Heavy Armour. While worn, provides ~LargeDamResBonus~ damage resistance versus ~WeaponType~. Gives a ~LargeSkillPen~ to all dex based skill checks and reduces your speed by ~HighSpeedReduce~.";"Heavy Armour. While worn, provides ~LargeDamResBonus~ damage resistance versus ~WeaponType~. Gives a ~MediumSkillPen~ to all dex based skill checks and reduces your speed by ~LowSpeedReduce~.";"Light Armour. While worn, provides ~SmallDamResBonus~ damage resistance versus ~WeaponType~. Gives a ~SmallSkillPen~ to all dex based skill checks.";"Medium Armour. While worn, provides ~MediumDamResBonus~ damage resistance versus ~WeaponType~. Gives a ~MediumSkillPen~ to all dex based skill checks. ~ArmourSpecialBuff~";;;;;;;;;;;;
+"cost ~armour~";"3000*~LargeDamResBonus~* ~WeaponType~*~LargeSkillPen~*~HighSpeedReduce~";"7000*~LargeDamResBonus~* ~WeaponType~*~MediumSkillPen~*~LowSpeedReduce~";"(1500*~SmallDamResBonus~* ~WeaponType~*~SmallSkillPen~)";"7000*~MediumDamResBonus~* ~WeaponType~*~MediumSkillPen~*~ArmourSpecialBuff~";;;;;;;;;;;;
+"~LargeDamBonus~";10;6;4;4;4;3;3;3;;;;;;;;
+;20;5;2;2;2;1;1;1;;;;;;;;
+"~WeaponType~";"Bullet damage";"Slashing and piercing damage";"Bludgeoning damage";"All melee damage";"Bullet damage";"Slashing and piercing damage";"Bludgeoning damage";"All melee damage";"All weapon damage";;;;;;;
+;1;1;0.8;1.5;1;1;0.8;1.5;4;;;;;;;
+"~LargeSkillPen~";-5;-5;-5;-5;-4;-7;-7;-10;-9;-4;-2;;;;;
+"Cost ~LargeSkillPen~";1;1;1;1;1.2;0.9;0.9;0.7;0.75;1.2;3;;;;;
+"~MediumSkillPen~";-3;-3;-4;-4;-2;-2;-5;;;;;;;-2;-2;
+"Cost ~MediumSkillPen~";1;1;0.9;0.9;2;2;0.85;;;;;;;0.8;0.8;
+"~SmallSkillPen~";-1;-1;-1;-2;-2;-3;0;;;;;;;;;
+"Cost ~SmallSkilPen~";1.1;1.1;1.1;0.9;0.9;0.7;3;;;;;;;;;
+"~HighSpeedReduce~";3;1;1;2;2;2;2;10;3;1;1;2;;;;
+"Cost ~HighSpeedReduce~";0.5;1;1;0.8;0.8;0.8;0.8;0.2;0.5;1;1;0.8;;;;
+"~LowSpeedReduce~";0;0;1;1;1;2;3;;;;;;;;;
+"cost~LowSpeedReduce~";3;3;1;1;1;0.8;0.6;;;;;;;;;
+;;;;;;;;;;;;;;;;
+"~LargeDamResBonus~";10;6;4;4;4;3;3;3;;;;;;;;
+;20;5;2;2;2;1;1;1;;;;;;;;
+"~MediumDamResBonus~";1;1;2;2;2;3;3;4;;;;;;;;
+;0.5;0.5;1;1;1;2;2;6;;;;;;;;
+"~SmallDamResBonus~";1;1;1;1;2;2;3;;;;;;;;;
+;1;1;1;1;3;3;6;;;;;;;;;
+"~ArmourSpecialBuff~";"Galvanic- +20 damage resistance vs lightning";"Galvanic- +5 damage resistance vs lightning";"Ejection: can remove armour as a full round action.";"Bouyant: this armour floats";;;;;;;".";".";".";".";".";"."
+;3;1.5;3;2;;;;;;;1;1;1;1;1;1
+"~ArmourSpecialDebuff~";;;;;;;;;;;;;;;;

@@ -1,0 +1,22 @@
+"~DodgyDeed~";"~DeedIntro~ for a ~PreReassure~ ~RealEstateFactory~ ~RealEstateFactoryLocation~. ~PostReassureFactory~";"~DeedIntro~ for a ~PreReassure~ ~RealEstateHouse~ ~RealEstateHouseLocation~. ~PostReassureHouse~";"~DeedIntro~ for a ~PreReassure~ ~RealEstateShip~. ~PostReassureShip~";;;;;;;;;;;;
+"cost";"(~DeedIntro~*~PreReassure~* ~RealEstateFactory~ * ~RealEstateFactoryLocation~* ~PostReassureFactory~)";"(~DeedIntro~*~PreReassure~* ~RealEstateHouse~ * ~RealEstateHouseLocation~* ~PostReassureHouse~)";"(~DeedIntro~* ~PreReassure~* ~RealEstateShip~* ~PostReassureShip~)";;;;;;;;;;;;
+"~DeedIntro~";"Keys codes and coordinates";"Deed and title";"Ownership papers and registration information ";"Access codes and authorisation";;;;;;;;;;;
+"C";1;1;1;1;;;;;;;;;;;
+"~PreReassure~";"totally legitimate";"perfectly safe";"well maintained";"defintely not cursed";"strategically placed";;;;;;;;;;
+"C";1;1;1;1;1;;;;;;;;;;
+"~RealEstateFactory~";"Biolab";"Robotics lab";"Exhuasted gold mine";"Exhuasted Uranium mine";"Copper mine";"Construction hanger";"Hidden Refuge";"Sealed Habitat";"toy factory";"Chemical Plant";"Nuclear power station.";"Archeological site.";"Cave Sysem.";"Nuclear Bunker";"Extraction Site"
+"C";1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
+"~RealEstateFactoryLocation~";"located in comfortable asteroid (coordinates on purchase)";"deep beneath the southern ocean";"located on Zavis, moon of Kaal";"located on Xin, moon of Kaal";"in the Labrinth Planum";"beneath Northern ice cap";"Last seen orbiting Malan";"Near the peak of Faratiu Koer";"70 Kms south of Anchorage";;;;;;
+"C";1;1;1;1;1;1;1;1;1;;;;;;
+"~PostReassureFactory~";"May need to evict previous tenants";"Mostly harmless.";"Homunculi calvacade ongoing, but should finish soon.";"Certainly not radioactive.";"Locals friendly.";"Blood type B+ preferable.";"Non Euclidian geometry.";;;;;;;;
+"C";1;1;1;1;1;1;1;;;;;;;;
+"~RealEstateHouse~";"house";"apartment";"studio flat";"penthouse";"gallery";"workshop.";;;;;;;;;
+"C";1;1;1;5;4;1;;;;;;;;;
+"~RealEstateHouseLocation~";"in downtown Embassey";"in uptown Landing";"on the outskirts of Embassey";"In district nine of Landing";"in the Nexus district of Anchorage";"in Ballast stations third ring";"In Rustpoint";"in homely town of Varianion";"in Scientific community of Quam";;;;;;
+"C";5;5;3;3;2;2;1;1;1;;;;;;
+"~PostReassureHouse~";"May need to evict previous tenants";"Friendly neighbours.";"Seller needs money for legal council.";"kjlfsajoiewc.";"Comfortable, non-murderous furniture.";"Averse to the colour yellow.";"Pets allowed, but must be resistant to corrosion.";"Entirely soundproofed.";;;;;;;
+"cost";1;1;1;1;1;1;1;1;;;;;;;
+"~RealEstateShip~";"Poseiden class submarine.";"Circumfrence Jump Ship.";"0012 Interplanetary feighter.";"Firefly class transport ship";"Dortmunder gunship";"Sonshun Recreational transport blimp.";"Colony ship.";;;;;;;;
+"cost";1;1;1;2;1;1;500;;;;;;;;
+"~PostReassureShip~";"Last seen on way past Leviathan.";"Probably not sentient.";"Currently stored in dagaba swamp.";"Hull replating required.";"Skilled mechanic a must.";"May need new paint job.";"I will pay you to take this ship from me.";;;;;;;;
+"cost";1;1;1;1;1;1;-0.1;;;;;;;;
