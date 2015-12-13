@@ -1,0 +1,54 @@
+---
+title: "Startraveller Weapons Generator"
+runtime: shiny
+output: html_document
+---
+
+##WeaponsShop
+
+```{r,echo=FALSE}
+library(shiny)
+source("WeaponsShopHelper.R")
+
+shinyUI(fluidPage(
+  titlePanel("StarTraveller Shop")
+  ,fluidRow(
+   column(1,
+      actionButton("goButton", "Go!")
+    ),
+    column(2,
+       numericInput("n", 
+        label = "Random Seed",
+        value = 652)   
+    ),
+    column(3,
+      sliderInput("priceBounds", "N:", min = 0, max = 25, value = c(0,5),
+                  step = 1)
+    ),    
+    column(3,
+      sliderInput("ShopSize", "Items:", min = 5, max = 150, 25,
+                  step = 1)
+    ),    
+    column(3,
+     selectInput("ShopType",
+    choices = c("General Weapons" = 1, "Guns Shop" = 2, "Blades shop" = 3), 
+    selected = 1, label="Shop Type")
+    )
+  )
+  ,hr()
+  ,fluidRow(column(10,    
+      renderDataTable({
+             input$goButton
+             isolate({
+                Filter=list()
+                Filter$botPrice<-min(2.5^(input$priceBounds[1]),1500)      
+                Filter$topPrice<-max(2.5^(input$priceBounds[2]),300, Filter$botPrice*5)              
+                MakeWeaponShop(BigList[[strtoi(input$ShopType)]],numItems=input$ShopSize,output=FALSE,seed=input$n,Filters=Filter)
+            })
+      })
+  )) ##NOTE: here is end of fluid row
+)#End fluid page
+)#End shiny UI
+
+```
+
