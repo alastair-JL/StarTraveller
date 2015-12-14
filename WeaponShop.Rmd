@@ -8,7 +8,7 @@ output: html_document
 
 ```{r,echo=FALSE}
 library(shiny)
-source("WeaponsShopHelper.R")
+source("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WeaponsShopHelper.R")
 
 shinyUI(fluidPage(
   titlePanel("StarTraveller Shop")

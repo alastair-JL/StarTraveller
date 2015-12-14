@@ -53,16 +53,17 @@ CSV2WepList<-function(FileName){
 }
 
 
-RevolverList<-CSV2WepList("Revolvers.csv")
-SwordList<-CSV2WepList("SwordList.csv")
-KnifeList<-CSV2WepList("KnifeList.csv")
-PistolList<-CSV2WepList("Pistols.csv")
-ShotgunList<-CSV2WepList("Shotgun.csv")
+RevolverList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Revolvers.csv")
+SwordList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/SwordList.csv")
+KnifeList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/KnifeList.csv")
+PistolList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Pistols.csv")
+ShotgunList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Shotgun.csv")
+RifleList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Rifles.csv")
 
 
-FireArms<-list(RevolverList,PistolList,ShotgunList)
+FireArms<-list(RevolverList,PistolList,RifleList,ShotgunList)
 MeleeWeps<-list(KnifeList,SwordList)
-GeneralWeps<-list(RevolverList,KnifeList,SwordList,PistolList,ShotgunList)
+GeneralWeps<-list(RevolverList,KnifeList,SwordList,PistolList,ShotgunList,RifleList)
 BigList<-list(GeneralWeps,FireArms,MeleeWeps)
 
 MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=10,output=FALSE,seed=0){
