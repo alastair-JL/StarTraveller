@@ -57,7 +57,7 @@
 "Sword";1;"<Battalian";;32;;"3x6";474.9819986175;">Antithesis";"20";1;;"x2";1.96;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Horatian";;33;;"3x5";237.9073371488;">Canticle";"19-20";1.4;;"x3";2.744;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"< ";;37;;"5x5";2082.6124715207;">Misfortune";"18-20";1.96;;"x4";3.8416;;;1;;"Fragile: Shatters on crit fumbles";0.2;"<Brittle";"N/A";1;;"N/A";1;
-"Sword";1;"<Flexible";;39;;"3x5";237.9073371488;"> “Anvil”";"19-20";1.4;;"x3";2.744;;;1;;"Painful: double all will saves prompted by this weapon.";1.3;">Cruelty";"N/A";1;;"N/A";1;
+"Sword";1;"<Flexible";;39;;"3x5";237.9073371488;"> ``Anvil''";"19-20";1.4;;"x3";2.744;;;1;;"Painful: double all will saves prompted by this weapon.";1.3;">Cruelty";"N/A";1;;"N/A";1;
 "Sword";1;"<Backhanded";;37;;"4x5";703.8954378402;">Trochee";"18-20";1.96;;"x4";3.8416;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Accidental";;38;;"3x5";237.9073371488;">madrigal";"19-20";1.4;;"x3";2.744;"^Last word";;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Pratchett's";;37;;"3x3";59.6855509284;">Epilouge";"20";1;;"x1";1.4;;;1;;;1;;"N/A";1;;"N/A";1;
@@ -96,7 +96,7 @@
 "Sword";1;"<Lonely";;38;;"4x4";289.6165234452;">Extinguisher";"20";1;;"x2";1.96;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Bandit's";;32;">Abstraction";"4x6";1710.7752745536;">Monolouge";"20";1;;"x2";1.96;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Citizen's";;34;;"4x5";703.8954378402;">Feather";"18-20";1.96;;"x4";3.8416;;;1;;;1;;"N/A";1;;"N/A";1;
-"Sword";1;"<Existentialist's";;38;;"3x4";119.1622024286;"> “Anvil”";"20";1;;"x2";1.96;;;1;;;1;;"N/A";1;;"N/A";1;
+"Sword";1;"<Existentialist's";;38;;"3x4";119.1622024286;"> ``Anvil''";"20";1;;"x2";1.96;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Doubtful";;31;;"3x3";59.6855509284;">Sestet";"20";1;;"x1";1.4;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;"<Cathedral";;30;;"4x5";703.8954378402;">Sapphic";"18-20";1.96;;"x4";3.8416;;;1;;;1;;"N/A";1;;"N/A";1;
 "Sword";1;;;38;;;;;;;;;;;;;;;;;;;;;;
