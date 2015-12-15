@@ -24,7 +24,7 @@
 "Knife";1;"<Cras";;24;">Sharpness";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;;1;;"N/A";1;;"N/A";1;
 "Knife";1;"<Morbi";;25;">Slicer";"1d4+1";35;"^Forced Welcome";"18-20";1.96;;"x7";17.0859375;;"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;"^The Icicle";;1;;"N/A";1;;"N/A";1;
 "Knife";1;"<Eros";;26;">Tooth";"1d4+1";35;;"17-20";2.744;">Angel";"x8";25.62890625;">Surgeon";"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;"<Crystal";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Luctus";;27;">""Spoon""";"1d4";10;;"20";1;;"x2";2.25;;"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;">Mirror";;1;;"N/A";1;;"N/A";1;
+"Knife";1;"<Luctus";;27;">``Spoon''";"1d4";10;;"20";1;;"x2";2.25;;"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;">Mirror";;1;;"N/A";1;;"N/A";1;
 "Knife";1;"<Laoreet";;15;">Italic";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Fang: +5 to the DC of all poisons delivered via this weapon.";1.1;"<Basilisk's";"N/A";1;;"N/A";1;
 "Knife";1;"<Etima";;16;">Afterthought";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Fang: +5 to the DC of all poisons delivered via this weapon.";1.1;"<Widow's";"N/A";1;;"N/A";1;
 "Knife";1;"<Nunc";;17;">Footnote";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
@@ -47,7 +47,7 @@
 "Knife";1;"<Rose";;21;">Forte";"1d6";25;"^Honest Feedback";"20";1;;"x4";5.0625;;"Electrified: With each hit deal an additional 1d6 electric damage.";4.5;"^Electra";;1;;"N/A";1;;"N/A";1;
 "Knife";1;"<Vermillion";;22;">Echelon";"1d6";25;;"20";1;;"x4";5.0625;;;1;;"Torturous: double to all will saves vs pain induced by this dagger.";1.5;"<Twisted";"N/A";1;;"N/A";1;
 "Knife";1;"<Sable";;23;">Chisel";"1d4";10;;"19-20";1.4;;"x5";7.59375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ashen";;24;">""Paintbrush""";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;"Dagger grants a +1 bonus on climb, craft, medical and repair checks.";1.2;"<Swiss";"N/A";1;;"N/A";1;
+"Knife";1;"<Ashen";;24;">``Paintbrush''";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;"Dagger grants a +1 bonus on climb, craft, medical and repair checks.";1.2;"<Swiss";"N/A";1;;"N/A";1;
 "Knife";1;"<Charcoal";;25;">Tahoma";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;">spleen remover";;1;;"Dagger grants a +1 bonus on climb, craft, medical and repair checks.";1.2;"<Ranger's";"N/A";1;;"N/A";1;
 "Knife";1;"<Smoken";;26;">Serif";"1d4+1";35;;"17-20";2.744;"^Lacerator";"x8";25.62890625;"<Marshmellow";"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)";1.2;"^Leverage";"Dagger grants a +2 bonus on climb, craft, medical and repair checks.";1.5;"<Mountaineer's";"N/A";1;;"N/A";1;
 "Knife";1;"<Pallid";;27;">Kerner";"1d4";10;;"20";1;;"x2";2.25;;"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)";1.2;"<Serrated";"Dagger grants +2 on disable device checks";1.2;"<Thief's";"N/A";1;;"N/A";1;
