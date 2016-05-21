@@ -1,0 +1,102 @@
+"Type";"TypePrice";"TypeName";"Price";"PricePrice";"PriceName";"Hit Dice";"DicePrice";"DiceName";"Crit Range";"CritRangePrice";"CritName";"Crit Multiplier";"CritXPrice";"Cname";"Special 1";"Sp1Price";"Sp1Name";"Special 2";"Sp2Price";"Sp2Name";"Aim Distance";"AimDistPrice";"AimName";"Max Distance"
+"Bludgeoning";1;"<Lead";;1;">``paperweight''";3;48.013;;20;1;;"x1";1;;;1;;"Chekov's: once per day you can summon This weapon to your hand.";2.5;"<Timely";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Deadiron";;2;">hammer";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Granite";;3;">club";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Monsterous";;4;">polebrick";6;329.321167;;20;1;;"x1";1;;"Double skill check penelties caused by damage from this hammer.";1.1;"<Interupting";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Brutal";;5;">Thumper";7;625.7102173;;20;1;;"x1";1;;;1;;"+2 damage whenever making AoO against moving targets.";1.1;">Stop-motion";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Blacksmith's";;6;">Skullcracker";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;"+2 damage whenever making AoO against target using skills and abilities.";1.1;"<Rude";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Behemoth";;7;">Ribbreaker";"1d4+3";238.914685317;;20;1;;"x1";1;;"This weapon can be thrown up to three squares (can't be used again until retrieved)";1.1;"<Hurling";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Metric";;8;">Mallet";"1d2+4";238.914685317;;20;1;;"x1";1;;;1;;"+2 aim whenever making AoO";1.1;"<Citidal";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Titanic";;9;">Mace";"1d2+6";862.4820139944;;20;1;;"x1";1;;;1;;"You may protect up to one extra ally when using ``Pillar of strength''";1.2;"<Bastion";"N/A";1;"N/A";1
+"Bludgeoning";1;"<weighty";;10;">warhammer";"1d4+6";1638.7158265894;;20;1;;"x1";1;;;1;;"+2 fortitude";1.2;"<Archon's";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Garish";;11;">Anvil";"1d4+5";453.9379021023;;20;1;;"x1";1;;"You require a +2 Str modifier to use this weapon";0.9;"<Jotunn's";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Base";;12;">piston";"2d4+4";2258.813884453;;20;1;;"x1";1;;;1;;"Ignore half the Damage resistence of any inanimate objects you attack.";1.2;">Rubblemaker";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Truesteel";;13;">triphammer";12;15493.2044334631;"<Hydrolic";20;1;;"x1";1;;;1;;"Deal maximum damage vs inanimate objects";1.2;"<Demolition";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Ironforge";;14;">blackjack";"1d4+10";21355.9085236956;"<Tectonic";20;1;;"x1";1;;"You require a +4 Str modifier to use this weapon";0.8;"<Gigatonne";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Copperplate";;15;">cudgel";"2d4+8";29437.0884235799;;20;1;;"x1";1;;;1;;"all reflex saves made as a result of taking damage from this weapon (For example, ragdoll physics) are made at a -2 penalty";1.2;"^Tantrum";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Coppercliff";;16;">Sledge";"2d6+7";55930.4680048018;;20;1;;"x1";1;;"Deal an additional 1 damage whenever using the ability SMASH.";1.1;"<Beserkers";"all reflex saves made as a result of taking damage from this weapon (For example, ragdoll physics) are made at a -5 penalty";1.8;"^Dutch tilt";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Thug's";;17;">Sledgehammer";"2d4+9";55930.4680048018;;20;1;;"x1";1;;;1;;"all reflex saves made as a result of taking damage from this weapon (For example, ragdoll physics) are made at a -10 penalty";3.5;"^Wilhelm Scream";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Bandit's";;18;">Gavel";9;2258.813884453;;20;1;;"x1";1;;;1;;"Double the effects of ``Armour b' gone'' (if you have it)";1.2;"<Shattering";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Newton's";;1;">Brick";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Scenic";;2;">beatstick";4;91.2247;;20;1;;"x1";1;;;1;;"+3 aim vs anyone who is currently attacking an ally";1.2;">Retribution";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Leadman's";;3;">Truncheon";5;173.32693;;20;1;;"x1";1;;"+1 aim";1.3;"<Balanced";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Overcranked";;4;">Baton";6;329.321167;;20;1;;"x1";1;;"+1 aim";1.3;"<Masterwork";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Rigger's";;5;">Pummeler";7;625.7102173;;20;1;;"x1";1;;"+1 aim. +5 CMD vs disarm";1.35;"<Truegrip";"+10 CMD vs disarm";1.1;"<Teathered";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Talentless";;6;">Curusher";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Western";;7;">Bruiser";"1d4+3";238.914685317;;20;1;;"x1";1;;;1;;"+6 intimidation";1.2;"<Warlord's";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Magic hour";;8;">advantage";"1d2+4";238.914685317;;20;1;;"x1";1;;"Whenever you would make a counter-attack, instead make two.";1.6;"^Chewing the scenery";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Maintenance";;9;">Anvil";"1d2+6";862.4820139944;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Extreme";;10;">Percussion";"1d4+6";1638.7158265894;;20;1;;"x1";1;;"+4 aim whenever making AoO";4;"<^Motionblur";"deals an additional 1d4 fire damage";1.8;"<Pyrotechnic";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Furious";;11;">Runepunch";"1d4+5";453.9379021023;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Barbaric";;12;">Dismantller";"2d4+4";2258.813884453;;20;1;;"x1";1;;;1;;"+2 counter attack range";1.3;">Turnaround";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Ashgrip";;13;">Romance";12;15493.2044334631;"^Nuetron star";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Volcanic";;14;">Detective";"1d4+10";21355.9085236956;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Obsidian";;1;">Denoument";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Granite";;2;">Horror";4;91.2247;;20;1;;"x1";1;;;1;;"Deals an additiona 1d4 ice damage";1.8;">Freezeframe";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Reinforced";;3;">Cinematic";5;173.32693;;20;1;;"x1";1;;"~ClubStory~";1;">Macguffin";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Final";;4;">Slate";6;329.321167;;20;1;;"x1";1;;"~ClubStory~";1;">Easter egg";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Reliable";;5;">Sleeper";7;625.7102173;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Chaotic";;6;">Slapstick";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;"This weapon can not be destroyed by anything less than the fires of a burning star.";1.6;"<Eternal";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Heavy";;7;">Sequel";"1d4+3";238.914685317;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Pricipled";;8;">Letterbox";"1d2+4";238.914685317;;20;1;;"x1";1;;;1;;"This weapon can be used single handed (must be your dominant hand)";1.8;"<Single handed";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Vertigo";;9;">Zoopraxis";"1d2+6";862.4820139944;;20;1;;"x1";1;;"+2 damage vs a champion's choosen foe.";1.3;"<Heroic";;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Surestrike";;10;">NC-17";"1d4+6";1638.7158265894;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Rordnard PQQ";;11;">Premiere";"1d4+5";453.9379021023;"^Romantic comedy";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Kindred";;12;">Production";"2d4+4";2258.813884453;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Oxen";;1;">Prop";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Leviathan";;2;">Puppeteer";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Mountainheart";;3;">Rotoscope";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Diamondtip";;4;">Timecode";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Carbonsteel";;5;">Treatment";7;625.7102173;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Blackfibre";;6;">Undercrank";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Relentless";;7;">Utility";"1d4+3";238.914685317;;20;1;;"x1";1;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined)";0.8;"<Busted";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Faithful";;8;">Walla";"1d2+4";238.914685317;;20;1;;"x1";1;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined)";0.8;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Malicious";;1;">Rhubarb";3;48.013;;20;1;;"x1";1;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined)";0.8;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Blackout";;2;">Wipe";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Whiteiron";;3;">Wrangler";5;173.32693;;20;1;;"x1";1;;;1;;"Busted: Make a DC 25 repair check to fix this up for use (Failure indicates weapon is ruined)";0.5;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Polished";;4;"> ``Kung fu''";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Burnished";;1;">Soundtrack";3;48.013;;20;1;;"x1";1;;;1;;"Take a DC 10 fortitude save vs radiation poisoning. If you fail, take a permanent -1 Con penalty.";0.5;"<Uranium alloy";"N/A";1;"N/A";1
+"Bludgeoning";1;"<Cancelled";;2;">Matte";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Exile's";;3;">Judder";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Tsuku";;4;">MOS";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Enforcer's";;5;">Jib";7;625.7102173;"^Femme fatale";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Lawmaker's";;6;">Ingenue";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Oathbreaker's";;1;">Indie";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Ominous";;2;">Honeywagon";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Springloaded";;1;">HOD";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<3G's";;2;">Contrast";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Gravitational";;3;">Conceptual";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Imperial";;4;">Hardtop";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Iridium";;5;">Hype";7;625.7102173;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Osmium";;6;">Shemp";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Foley's";;7;">Noir";"1d4+3";238.914685317;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Epic";;8;">Focus";"1d2+4";238.914685317;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Campy";;9;">Executive";"1d2+6";862.4820139944;"^Black comedy";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Tantalum";;10;">Exposition";"1d4+6";1638.7158265894;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Riot";;1;">Extra";3;48.013;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Misshappen";;2;">Exhibitor";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Criminal";;3;">Cameo";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Defender's";;4;">Chyron";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Hearthkeeper";;5;">Chromakey";7;625.7102173;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<3G's";;6;">Clapboard";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Stoneforged";;7;">Clapper";"1d4+3";238.914685317;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Smashtastic";;8;">Cliffhanger";"1d2+4";238.914685317;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Ogre's";;9;">Crosscut";"1d2+6";862.4820139944;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Unreasonable";;10;">Cyberpunk";"1d4+6";1638.7158265894;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Cyclonic";;11;">Blockbuster";"1d4+5";453.9379021023;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Broadnose";;12;">Blooper";"2d4+4";2258.813884453;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Flathead";;13;">Bootleg";12;15493.2044334631;"^Your Mother";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Squarehead";;14;">Flail";"1d4+10";21355.9085236956;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Lonely";;15;">Mallet";"2d4+8";29437.0884235799;"^Nyquist Limit";20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Bonesplinter";;16;">hammer";"2d6+7";55930.4680048018;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Sizeable";;9;">warhammer";"1d2+6";862.4820139944;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Quester's";;11;">Momentum";"1d4+5";453.9379021023;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Avatar's";;10;">Inertia";"1d4+6";1638.7158265894;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Battalion";;5;">Flattener";7;625.7102173;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Blightmetal";;6;">Judder";"1d4+2";125.7445712195;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Meteor";;3;">Ballast";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Starheart";;3;">Mace";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Comettail";;4;">Flail";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Corestone";;3;">Steelbreaker";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+"Bludgeoning";1;"<Bastard";;3;">Foreshadowing";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1
+;1;;;2;;;;;;;;;;;;1;;;1;;;;;
