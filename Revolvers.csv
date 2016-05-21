@@ -75,9 +75,9 @@
 @"Revolver"@;1;@"<Bloody"@;;2;@">Jack"@;@"1d6"@;47.2723951953;;@"20"@;1;;@"x2"@;1.96;;;1;;;1;;3;1;;8;1;
 @"Revolver"@;1;@"<Baratone"@;;3;@">Cormorant"@;@"1d6"@;47.2723951953;;@"20"@;1;;@"x2"@;1.96;;;1;;;1;;3;1;;8;1;
 @"Revolver"@;1;@"<Lady's"@;;3;@"^Sebastian"@;@"1d6"@;47.2723951953;;@"20"@;1;;@"x2"@;1.96;;;1;;;1;;3;1;;8;1;
-@"Revolver"@;1;@"<Vandal's"@;;3;@"^Forgiveness"@;@"2d4"@;123.80495;;@"20"@;1;;@"x2"@;1.96;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;0.8;@“<Kadagin”@;3;1;;7;0.9090909091;
-@"Revolver"@;1;@"^Nine"@;;4;@">Ultimatum"@;@"2d4"@;123.80495;;@"20"@;1;;@"x2"@;1.96;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;0.88;@“<Toby's”@;3;1;;7;0.9090909091;
-@"Revolver"@;1;@"<Midnight"@;;4;@"^U2"@;@"1d8"@;89.8175508711;;@"20"@;1;;@"x2"@;1.96;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;0.97;@“>Ill eagle”@;4;1.3;;7;0.9090909091;
+@"Revolver"@;1;@"<Vandal's"@;;3;@"^Forgiveness"@;@"2d4"@;123.80495;;@"20"@;1;;@"x2"@;1.96;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;0.8;@“<Kadagin”@;3;1;;7;0.9090909091;
+@"Revolver"@;1;@"^Nine"@;;4;@">Ultimatum"@;@"2d4"@;123.80495;;@"20"@;1;;@"x2"@;1.96;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;0.88;@“<Toby's”@;3;1;;7;0.9090909091;
+@"Revolver"@;1;@"<Midnight"@;;4;@"^U2"@;@"1d8"@;89.8175508711;;@"20"@;1;;@"x2"@;1.96;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;0.97;@“>Ill eagle”@;4;1.3;;7;0.9090909091;
 @"Revolver"@;1;@"<Oblivion"@;;5;@">Joker"@;@"1d10"@;170.653346655;;@"20"@;1;;@"x2"@;1.96;;;1;;;1;;4;1.3;;8;1;
 @"Revolver"@;1;@"^The Impressionist"@;;6;@">Triumph"@;@"3d4"@;616.0585814246;@"^The Understatement"@;@"19-20"@;1.4;;@"x3"@;2.744;;;1;;;1;;2;0.7692307692;;9;1.1;
 @"Revolver"@;1;@"^Sandwich"@;;7;@">Mistral"@;@"3d4"@;616.0585814246;;@"19-20"@;1.4;@"^Final Address"@;@"x3"@;2.744;;;1;;;1;;2;0.7692307692;;9;1.1;

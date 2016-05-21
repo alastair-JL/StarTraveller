@@ -74,9 +74,9 @@
 @"Sword"@;1;@"< "@;;38;;@"3x3"@;59.6855509284;@">Tribulation"@;@"20"@;1;;@"x1"@;1.4;;@"+10 vs disarm"@;1.15;;;1;;@"N/A"@;1;;@"N/A"@;1;
 @"Sword"@;1;@"<Weldforged"@;;30;;@"3x5"@;237.9073371488;@">Adversary"@;@"19-20"@;1.4;;@"x3"@;2.744;;@"+3 aim vs team mates"@;1.1;@">Treason"@;;1;;@"N/A"@;1;;@"N/A"@;1;
 @"Sword"@;1;@"<Ambidexterous"@;;37;;@"4x5"@;703.8954378402;@">Eclipse"@;@"18-20"@;1.96;;@"x4"@;3.8416;;;1;;;1;;@"N/A"@;1;;@"N/A"@;1;
-@"Sword"@;1;@"<Moonstone"@;;38;;@"3x3"@;59.6855509284;@">Pentametre"@;@"20"@;1;;@"x1"@;1.4;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;0.75;@“<Contraband”@;@"N/A"@;1;;@"N/A"@;1;
-@"Sword"@;1;@"<False"@;;30;;@"4x5"@;703.8954378402;@">Decorum"@;@"18-20"@;1.96;;@"x4"@;3.8416;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;0.88;@“<Mickey's”@;@"N/A"@;1;;@"N/A"@;1;
-@"Sword"@;1;@"<Melencholy"@;;38;;@"4x5"@;703.8954378402;@">Palindrome"@;@"18-20"@;1.96;;@"x4"@;3.8416;;;1;;@Blackmarket: Only accesible if you have access to blackmarket items.@;1.4;@“<Swindler's”@;@"N/A"@;1;;@"N/A"@;1;
+@"Sword"@;1;@"<Moonstone"@;;38;;@"3x3"@;59.6855509284;@">Pentametre"@;@"20"@;1;;@"x1"@;1.4;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;0.75;@“<Contraband”@;@"N/A"@;1;;@"N/A"@;1;
+@"Sword"@;1;@"<False"@;;30;;@"4x5"@;703.8954378402;@">Decorum"@;@"18-20"@;1.96;;@"x4"@;3.8416;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;0.88;@“<Mickey's”@;@"N/A"@;1;;@"N/A"@;1;
+@"Sword"@;1;@"<Melencholy"@;;38;;@"4x5"@;703.8954378402;@">Palindrome"@;@"18-20"@;1.96;;@"x4"@;3.8416;;;1;;@“Blackmarket: Only accesible if you have access to blackmarket items.”@;1.4;@“<Swindler's”@;@"N/A"@;1;;@"N/A"@;1;
 @"Sword"@;1;@"<Ambiguous"@;;38;;@"5x5"@;2082.6124715207;@">Tragedy"@;@"18-20"@;1.96;@"<Death's own"@;@"x4"@;3.8416;@"^Forget-me-not"@;;1;;@"+3 when making counter attacks"@;1.15;@">Vengence"@;@"N/A"@;1;;@"N/A"@;1;
 @"Sword"@;1;@"<CometIron"@;;39;;@"3x5"@;237.9073371488;@">Personification"@;@"19-20"@;1.4;;@"x3"@;2.744;@"^Blank verse"@;;1;;;1;;@"N/A"@;1;;@"N/A"@;1;
 @"Sword"@;1;@"<Dry"@;;37;@">Lotus"@;@"6x6"@;22647.9634988929;@">Satire"@;@"19-20"@;1.4;@"<Angelic"@;@"x3"@;2.744;@">Damnation"@;;1;;;1;;@"N/A"@;1;;@"N/A"@;1;
