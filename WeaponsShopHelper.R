@@ -64,7 +64,7 @@ RifleList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTravel
 
 FireArms<-list(RevolverList,PistolList,RifleList,ShotgunList)
 MeleeWeps<-list(KnifeList,SwordList,ClubList)
-GeneralWeps<-list(RevolverList,KnifeList,SwordList,PistolList,ShotgunList,RifleList)
+GeneralWeps<-list(RevolverList,KnifeList,SwordList,PistolList,ShotgunList,RifleList,ClubList)
 BigList<-list(GeneralWeps,FireArms,MeleeWeps)
 
 MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=10,output=FALSE,seed=0){
