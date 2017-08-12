@@ -1,102 +1,102 @@
-"Type";"TypePrice";"TypeName";"Price";"PricePrice";"PriceName";"Hit Dice";"DicePrice";"DiceName";"Crit Range";"CritRangePrice";"CritName";"Crit Multiplier";"CritXPrice";"Cname";"Special 1";"Sp1Price";"Sp1Name";"Special 2";"Sp2Price";"Sp2Name";"Aim Distance";"AimDistPrice";"AimName";"Max Distance";"MaxDistPrice";"MaxName"
-"Knife";1;"<Ramsteel";;15;"^Letter Opener";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<BloodIron";;16;">Knife";"1d4";10;;"20";1;;"x2";2.25;;"Armour Piercing 2";1.2;"<Punching";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<CarbonSteel";;17;">Dagger";"1d4";10;;"20";1;;"x3";3.375;;"Armour Piercing 5";1.3;"<Slayer's";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Titillium";;18;">Blade";"1d4";10;;"20";1;;"x3";3.375;;;1;;"Armour Piercing 5";1.3;"^Unwelcome visitor";"N/A";1;;"N/A";1;
-"Knife";1;"<Paladium";;19;">Edge";"1d4";10;;"20";1;;"x3";3.375;;"Armour Piercing 5";1.3;">Sidestep";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ivory";;20;">Blade";"1d6";25;;"20";1;;"x3";3.375;;;1;;"Armour Piercing 20";1.9;"^Forgiveness";"N/A";1;;"N/A";1;
-"Knife";1;"<Elegant";;21;">Cyrillic";"1d6";25;;"20";1;;"x4";5.0625;;"Concealable";1.3;"<Oragami";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Lover's";;22;"^Comic Sans";"1d6";25;;"20";1;;"x4";5.0625;;;1;;"Concealable";1.3;"<Discrete";"N/A";1;;"N/A";1;
-"Knife";1;"<Sacrificial";;23;">Scalpel";"1d4";10;;"19-20";1.4;;"x5";7.59375;;"Concealable";1.3;"<Elegant";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Emphatic";;24;">Dirk";"1d4";10;;"19-20";1.4;;"x6";11.390625;;"Concealable";1.3;"<Backhand";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"^Nutmeg";;25;">Lancet";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;;;1;;"Concealable";1.3;"<Folding";"N/A";1;;"N/A";1;
-"Knife";1;"<Heirloom";;26;">Stiletto";"1d4+1";35;;"17-20";2.744;"<Seeking";"x8";25.62890625;">Anatomist";"Concealable";1.3;"^Kind regards";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Pristene";;27;">Knife";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Chekov's: once per day you can summon This weapon to your hand.";2.5;"<Timely";"N/A";1;;"N/A";1;
-"Knife";1;"<Polished";;15;">Dagger";"1d4";10;;"20";1;;"x2";2.25;;"+1 counterattack range";1.2;"<Dancer's";"Chekov's: once per day you can summon This weapon to your hand.";2.5;"<Signature";"N/A";1;;"N/A";1;
-"Knife";1;"<Incisive";;16;">Blade";"1d4";10;;"20";1;;"x2";2.25;;"+2 counterattack range";1.55;">Swordcatcher";"Chekov's: once per day you can summon This weapon to your hand.";2.5;"<Chekov's";"N/A";1;;"N/A";1;
-"Knife";1;"<Ebony";;17;">Edge";"1d4";10;;"20";1;;"x3";3.375;;"+4 counterattack range";1.8;"<Duelist's";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Bronze";;18;">Dagger";"1d4";10;;"20";1;;"x3";3.375;;"+4 counterattack range";1.8;">Bladeturner";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Bone";;19;">Knife";"1d4";10;;"20";1;;"x3";3.375;;;1;;"This weapon con make counter attacks, even when you fail to dodge";1.4;"<Vengeful";"N/A";1;;"N/A";1;
-"Knife";1;"<Ironcore";;20;">Shiv";"1d6";25;;"20";1;;"x3";3.375;;"+3 aim vs team mates";1.1;"^Treason";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Donec";;21;">Needle";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Semper";;22;">Pin";"1d6";25;"^Tango";"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Blandit";;23;">Helvetica";"1d4";10;;"19-20";1.4;;"x5";7.59375;;;1;;"Tempered Glass: ignores metal detectors";1.3;"<Obsidian";"N/A";1;;"N/A";1;
-"Knife";1;"<Cras";;24;">Sharpness";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Morbi";;25;">Slicer";"1d4+1";35;"^Forced Welcome";"18-20";1.96;;"x7";17.0859375;;"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;"^The Icicle";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Eros";;26;">Tooth";"1d4+1";35;;"17-20";2.744;">Angel";"x8";25.62890625;">Surgeon";"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;"<Crystal";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Luctus";;27;">``Spoon''";"1d4";10;;"20";1;;"x2";2.25;;"Glass: Ignores metal detectors, shatters on attack roll of 1";0.95;">Mirror";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Laoreet";;15;">Italic";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Fang: +5 to the DC of all poisons delivered via this weapon.";1.1;"<Basilisk's";"N/A";1;;"N/A";1;
-"Knife";1;"<Etima";;16;">Afterthought";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Fang: +5 to the DC of all poisons delivered via this weapon.";1.1;"<Widow's";"N/A";1;;"N/A";1;
-"Knife";1;"<Nunc";;17;">Footnote";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Aliquam";;18;">Appendix";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Agent's";;19;">Fate";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Existential";;20;">Wit";"1d6";25;;"20";1;;"x3";3.375;;"Backstabber: +3 damage during sneak attack";3;"<Shadow's";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ironstrike";;21;">Punchline";"1d6";25;;"20";1;;"x4";5.0625;;"Backstabber: +3 damage during sneak attack";3;"<Moonlit";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Woodford";;22;">Shard";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Black";;23;">Lifetaker";"1d4";10;;"19-20";1.4;;"x5";7.59375;;"Assasination: + 5 damage during sneak attack";5;"<Assasin's";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Scarlet";;24;">Constantia";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.";1.3;"<Balanced";"N/A";1;;"N/A";1;
-"Knife";1;"<Crimson";;25;">Gothic";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;"^Tracheostomy";;1;;"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.";1.3;"> throwing knife";"N/A";1;;"N/A";1;
-"Knife";1;"<Agent's";;26;">Verdana";"1d4+1";35;;"17-20";2.744;"<Vampiric";"x8";25.62890625;"<Merciful";;1;;"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.";1.3;"<Throwing";"N/A";1;;"N/A";1;
-"Knife";1;"<Bloodshot";;27;">Webding";"1d4";10;;"20";1;;"x2";2.25;;"Never breaks";1.04;"<Hefty";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Frostglove";;15;">Sans";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Sandlewood";;16;">Slider";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Wrist Sheath: Can be hidden up ones sleave (Concealable), and drawn instantly (as a quick action).";1.5;"<Sleeve";"N/A";1;;"N/A";1;
-"Knife";1;"<Silver Inlaid";;17;">Rosetta";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ashbury";;18;">Razor";"1d4";10;;"20";1;;"x3";3.375;;"Electrified: Once per combat, deal an additional 1d6 electric damage.";2;">Voltaic";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<White";;19;">Lotus";"1d4";10;;"20";1;;"x3";3.375;;"Electrified: Once per combat, deal an additional 1d6 electric damage.";2;">Galvanic";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Agent's";;20;">Lance";"1d6";25;;"20";1;;"x3";3.375;;"Electrified: Once per combat, deal an additional 1d6 electric damage.";2;"<Conductive";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Rose";;21;">Forte";"1d6";25;"^Honest Feedback";"20";1;;"x4";5.0625;;"Electrified: With each hit deal an additional 1d6 electric damage.";4.5;"^Electra";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Vermillion";;22;">Echelon";"1d6";25;;"20";1;;"x4";5.0625;;;1;;"Torturous: double to all will saves vs pain induced by this dagger.";1.5;"<Twisted";"N/A";1;;"N/A";1;
-"Knife";1;"<Sable";;23;">Chisel";"1d4";10;;"19-20";1.4;;"x5";7.59375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ashen";;24;">``Paintbrush''";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;"Dagger grants a +1 bonus on climb, craft, medical and repair checks.";1.2;"<Swiss";"N/A";1;;"N/A";1;
-"Knife";1;"<Charcoal";;25;">Tahoma";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;">spleen remover";;1;;"Dagger grants a +1 bonus on climb, craft, medical and repair checks.";1.2;"<Ranger's";"N/A";1;;"N/A";1;
-"Knife";1;"<Smoken";;26;">Serif";"1d4+1";35;;"17-20";2.744;"^Lacerator";"x8";25.62890625;"<Marshmellow";"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)";1.2;"^Leverage";"Dagger grants a +2 bonus on climb, craft, medical and repair checks.";1.5;"<Mountaineer's";"N/A";1;;"N/A";1;
-"Knife";1;"<Pallid";;27;">Kerner";"1d4";10;;"20";1;;"x2";2.25;;"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)";1.2;"<Serrated";"Dagger grants +2 on disable device checks";1.2;"<Thief's";"N/A";1;;"N/A";1;
-"Knife";1;"< ";;15;">Mortis";"1d4";10;;"20";1;;"x2";2.25;;"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)";1.2;"^Scarmaker";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"< ";;16;"^Lorem Ipsum";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined";0.8;"<Shaky";"N/A";1;;"N/A";1;
-"Knife";1;"< ";;17;">Vitae";"1d4";10;;"20";1;;"x3";3.375;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined";0.8;;"N/A";1;;"N/A";1;
-"Knife";1;"< ";;18;">Velit";"1d4";10;;"20";1;;"x3";3.375;;;1;;"Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined";0.8;;"N/A";1;;"N/A";1;
-"Knife";1;"< ";;19;">Tempor";"1d4";10;;"20";1;;"x3";3.375;;"+5 critical hit range during surprise rounds.";2.6;"<First Blood";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"< ";;20;">Dictum";"1d6";25;;"20";1;;"x3";3.375;;;1;;"Busted: Make a DC 25 repair check to fix this up for use (Failure indicates weapon is ruined";0.5;;"N/A";1;;"N/A";1;
-"Knife";1;"<Angled";;21;">Purus";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Exquisite";;22;">Moriece";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Unholy";;23;">Exo";"1d4";10;;"19-20";1.4;;"x5";7.59375;;"+1 Aim";1.3;"<Masterwork Ramsteel";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Barberous";;24;">Skinning knife";"1d4";10;;"19-20";1.4;;"x6";11.390625;;"+1 Aim";1.3;"<Mastwork BloodIron";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Liquid";;25;">Switchblade";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;;"+1 Aim";1.3;"<Masterwork CarbonSteel";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Thirsty";;26;">Hunting knife";"1d4+1";35;;"17-20";2.744;"<Guided";"x8";25.62890625;"^Banana Nut Muffin";"+1 Aim";1.3;"<Masterwork Ivory";"Anyone damage by this weapon is now bleeding (1ph per turn, does not stack)";3;"<Barbed";"N/A";1;;"N/A";1;
-"Knife";1;"<Slim";;27;">Finisher";"1d4";10;;"20";1;;"x2";2.25;;"+1 Aim";1.3;"<Masterwork Paladium";"Anyone damage by this weapon is now bleeding (1ph per turn, does not stack)";3;">Bloodletter";"N/A";1;;"N/A";1;
-"Knife";1;"<Overt";;15;">Ruberick";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Lighthearted";;16;">Artisian";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)";1.5;"^Vein Opener";"N/A";1;;"N/A";1;
-"Knife";1;"<Jester's";;17;">Conditional";"1d4";10;;"20";1;;"x3";3.375;;;1;;"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)";1.5;;"N/A";1;;"N/A";1;
-"Knife";1;"<Forgetful";;18;">Acompalice";"1d4";10;;"20";1;;"x3";3.375;;;1;;"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)";1.5;;"N/A";1;;"N/A";1;
-"Knife";1;"<Hand-Me-Down";;19;">Thorn";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Uncle's";;20;">Spike";"1d6";25;;"20";1;;"x3";3.375;;"+2 aim when making AoO.";1.4;">Opportunist";"+2 aim when making AoO.";1.4;"<Punctual";"N/A";1;;"N/A";1;
-"Knife";1;"<Quality";;21;">Barb";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Blackhaft";;22;">Skewer";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Chrome";;23;">Impaler";"1d4";10;;"19-20";1.4;;"x5";7.59375;;"All succesful AoO made with this weapon are considered critical";2.4;">Opportunist";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Carbon";;24;">Stake";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Sleeper's";;25;">Tine";"1d4+1";35;;"18-20";1.96;;"x7";17.0859375;;;1;;"Whenever a character is damaged by this weapon, halve all healing the receive until the next round";1.3;"<Messy";"N/A";1;;"N/A";1;
-"Knife";1;"<Clinical";;26;">Reclaimer";"1d4+1";35;;"17-20";2.744;"<Truestrike";"x8";25.62890625;">Morgue filler";;1;;"Whenever a character is damaged by this weapon, halve all healing the receive until the next round";1.3;">Gore";"N/A";1;;"N/A";1;
-"Knife";1;"<Shining";;27;">Heiroglyph";"1d4";10;;"20";1;;"x1";0.8;"<Blunt";;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Eastmarket";;15;">Caesura";"1d4";10;;"20";1;;"x2";2.25;;"This item counts as two daggers";1.9;"<Twin";;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Rustcliff";;16;">Discontinuous";"1d4";10;;"20";1;;"x2";2.25;;;1;;"Immune to fingerprints.";1.1;"<Clean";"N/A";1;;"N/A";1;
-"Knife";1;"<Embassy";;17;">Rictus";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Backalley";;18;">Stiletto";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Mugger's";;19;">Knife";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Hefty";;20;">Dagger";"1d6";25;;"20";1;;"x3";3.375;;"~KnifeStory~";1;;"~KnifeStory~";1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Voiceless";;21;">Blade";"1d6";25;;"20";1;;"x4";5.0625;;"~KnifeStory~";1;;"~KnifeStory~";1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Singing";;22;">Edge";"1d6";25;;"20";1;;"x4";5.0625;;;1;;"~KnifeStory~";1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Backalley";;23;">Switchblade";"1d4";10;;"19-20";1.4;;"x5";7.59375;;;1;;"~KnifeStory~";1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Ramsteel";;24;">Hunting knife";"1d4";10;;"19-20";1.4;;"x6";11.390625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<BloodIron";;25;">Cyrillic";"1d4+1";35;;"18-20";1.96;">Dirac";"x7";17.0859375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Deadbook";;26;">Shard";"1d4+1";35;;"17-20";2.744;"<Death's own";"x8";25.62890625;"<Achillie's";;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Butterfly";;27;">Caligraphy";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Strawberry";;15;">Contra";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Cowardly";;16;">Dossier";"1d4";10;;"20";1;;"x2";2.25;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Solitary";;17;">Jitte";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Stained";;18;">Correction";"1d4";10;">Blood Taster";"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";1;"<Insolent";;19;">Pedantic";"1d4";10;;"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";0.93;"<Sale price";;20;">Assistant";"1d6";25;"<Angelsteel";"20";1;;"x3";3.375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";3;"<Overpriced";;21;">Paradox";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";15;"<Gemstone";;22;">Sai";"1d6";25;;"20";1;;"x4";5.0625;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";15;"<Golden";;23;">Sickle";"1d8";100;"^The Cleaver";"19-20";1.4;;"x5";7.59375;;;1;;;1;;"N/A";1;;"N/A";1;
-"Knife";15;;;24;;;;;;;;;;;;;;;;;;;;;;
+Type,TypePrice,TypeName,Price,PricePrice,PriceName,Hit Dice,DicePrice,DiceName,Crit Range,CritRangePrice,CritName,Crit Multiplier,CritXPrice,Cname,Special 1,Sp1Price,Sp1Name,Special 2,Sp2Price,Sp2Name,Aim Distance,AimDistPrice,AimName,Max Distance,MaxDistPrice,MaxName
+Knife,1,<Ramsteel,,15,^Letter Opener,1d4,10,,20,1,,x2,2.25,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<BloodIron,,16,>Knife,1d4,10,,20,1,,x2,2.25,,Armour Piercing 2,1.2,<Punching,,1,,N/A,1,,N/A,1,
+Knife,1,<CarbonSteel,,17,>Dagger,1d4,10,,20,1,,x3,3.375,,Armour Piercing 5,1.3,<Slayer's,,1,,N/A,1,,N/A,1,
+Knife,1,<Titillium,,18,>Blade,1d4,10,,20,1,,x3,3.375,,,1,,Armour Piercing 5,1.3,^Unwelcome visitor,N/A,1,,N/A,1,
+Knife,1,<Paladium,,19,>Edge,1d4,10,,20,1,,x3,3.375,,Armour Piercing 5,1.3,>Sidestep,,1,,N/A,1,,N/A,1,
+Knife,1,<Ivory,,20,>Blade,1d6,25,,20,1,,x3,3.375,,,1,,Armour Piercing 20,1.9,^Forgiveness,N/A,1,,N/A,1,
+Knife,1,<Elegant,,21,>Cyrillic,1d6,25,,20,1,,x4,5.0625,,Concealable,1.3,<Oragami,,1,,N/A,1,,N/A,1,
+Knife,1,<Lover's,,22,^Comic Sans,1d6,25,,20,1,,x4,5.0625,,,1,,Concealable,1.3,<Discrete,N/A,1,,N/A,1,
+Knife,1,<Sacrificial,,23,>Scalpel,1d4,10,,19-20,1.4,,x5,7.59375,,Concealable,1.3,<Elegant,,1,,N/A,1,,N/A,1,
+Knife,1,<Emphatic,,24,>Dirk,1d4,10,,19-20,1.4,,x6,11.390625,,Concealable,1.3,<Backhand,,1,,N/A,1,,N/A,1,
+Knife,1,^Nutmeg,,25,>Lancet,1d4+1,35,,18-20,1.96,,x7,17.0859375,,,1,,Concealable,1.3,<Folding,N/A,1,,N/A,1,
+Knife,1,<Heirloom,,26,>Stiletto,1d4+1,35,,17-20,2.744,<Seeking,x8,25.62890625,>Anatomist,Concealable,1.3,^Kind regards,,1,,N/A,1,,N/A,1,
+Knife,1,<Pristene,,27,>Knife,1d4,10,,20,1,,x2,2.25,,,1,,Chekov's: once per day you can summon This weapon to your hand.,2.5,<Timely,N/A,1,,N/A,1,
+Knife,1,<Polished,,15,>Dagger,1d4,10,,20,1,,x2,2.25,,+1 counterattack range,1.2,<Dancer's,Chekov's: once per day you can summon This weapon to your hand.,2.5,<Signature,N/A,1,,N/A,1,
+Knife,1,<Incisive,,16,>Blade,1d4,10,,20,1,,x2,2.25,,+2 counterattack range,1.55,>Swordcatcher,Chekov's: once per day you can summon This weapon to your hand.,2.5,<Chekov's,N/A,1,,N/A,1,
+Knife,1,<Ebony,,17,>Edge,1d4,10,,20,1,,x3,3.375,,+4 counterattack range,1.8,<Duelist's,,1,,N/A,1,,N/A,1,
+Knife,1,<Bronze,,18,>Dagger,1d4,10,,20,1,,x3,3.375,,+4 counterattack range,1.8,>Bladeturner,,1,,N/A,1,,N/A,1,
+Knife,1,<Bone,,19,>Knife,1d4,10,,20,1,,x3,3.375,,,1,,"This weapon con make counter attacks, even when you fail to dodge",1.4,<Vengeful,N/A,1,,N/A,1,
+Knife,1,<Ironcore,,20,>Shiv,1d6,25,,20,1,,x3,3.375,,+3 aim vs team mates,1.1,^Treason,,1,,N/A,1,,N/A,1,
+Knife,1,<Donec,,21,>Needle,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Semper,,22,>Pin,1d6,25,^Tango,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Blandit,,23,>Helvetica,1d4,10,,19-20,1.4,,x5,7.59375,,,1,,Tempered Glass: ignores metal detectors,1.3,<Obsidian,N/A,1,,N/A,1,
+Knife,1,<Cras,,24,>Sharpness,1d4,10,,19-20,1.4,,x6,11.390625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Morbi,,25,>Slicer,1d4+1,35,^Forced Welcome,18-20,1.96,,x7,17.0859375,,"Glass: Ignores metal detectors, shatters on attack roll of 1",0.95,^The Icicle,,1,,N/A,1,,N/A,1,
+Knife,1,<Eros,,26,>Tooth,1d4+1,35,,17-20,2.744,>Angel,x8,25.62890625,>Surgeon,"Glass: Ignores metal detectors, shatters on attack roll of 1",0.95,<Crystal,,1,,N/A,1,,N/A,1,
+Knife,1,<Luctus,,27,>``Spoon'',1d4,10,,20,1,,x2,2.25,,"Glass: Ignores metal detectors, shatters on attack roll of 1",0.95,>Mirror,,1,,N/A,1,,N/A,1,
+Knife,1,<Laoreet,,15,>Italic,1d4,10,,20,1,,x2,2.25,,,1,,Fang: +5 to the DC of all poisons delivered via this weapon.,1.1,<Basilisk's,N/A,1,,N/A,1,
+Knife,1,<Etima,,16,>Afterthought,1d4,10,,20,1,,x2,2.25,,,1,,Fang: +5 to the DC of all poisons delivered via this weapon.,1.1,<Widow's,N/A,1,,N/A,1,
+Knife,1,<Nunc,,17,>Footnote,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Aliquam,,18,>Appendix,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Agent's,,19,>Fate,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Existential,,20,>Wit,1d6,25,,20,1,,x3,3.375,,Backstabber: +3 damage during sneak attack,3,<Shadow's,,1,,N/A,1,,N/A,1,
+Knife,1,<Ironstrike,,21,>Punchline,1d6,25,,20,1,,x4,5.0625,,Backstabber: +3 damage during sneak attack,3,<Moonlit,,1,,N/A,1,,N/A,1,
+Knife,1,<Woodford,,22,>Shard,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Black,,23,>Lifetaker,1d4,10,,19-20,1.4,,x5,7.59375,,Assasination: + 5 damage during sneak attack,5,<Assasin's,,1,,N/A,1,,N/A,1,
+Knife,1,<Scarlet,,24,>Constantia,1d4,10,,19-20,1.4,,x6,11.390625,,,1,,"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.",1.3,<Balanced,N/A,1,,N/A,1,
+Knife,1,<Crimson,,25,>Gothic,1d4+1,35,,18-20,1.96,,x7,17.0859375,^Tracheostomy,,1,,"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.",1.3,> throwing knife,N/A,1,,N/A,1,
+Knife,1,<Agent's,,26,>Verdana,1d4+1,35,,17-20,2.744,<Vampiric,x8,25.62890625,<Merciful,,1,,"Balanced: Can be used as a throwing dagger. Max range 6, range increment 2.",1.3,<Throwing,N/A,1,,N/A,1,
+Knife,1,<Bloodshot,,27,>Webding,1d4,10,,20,1,,x2,2.25,,Never breaks,1.04,<Hefty,,1,,N/A,1,,N/A,1,
+Knife,1,<Frostglove,,15,>Sans,1d4,10,,20,1,,x2,2.25,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Sandlewood,,16,>Slider,1d4,10,,20,1,,x2,2.25,,,1,,"Wrist Sheath: Can be hidden up ones sleave (Concealable), and drawn instantly (as a quick action).",1.5,<Sleeve,N/A,1,,N/A,1,
+Knife,1,<Silver Inlaid,,17,>Rosetta,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Ashbury,,18,>Razor,1d4,10,,20,1,,x3,3.375,,"Electrified: Once per combat, deal an additional 1d6 electric damage.",2,>Voltaic,,1,,N/A,1,,N/A,1,
+Knife,1,<White,,19,>Lotus,1d4,10,,20,1,,x3,3.375,,"Electrified: Once per combat, deal an additional 1d6 electric damage.",2,>Galvanic,,1,,N/A,1,,N/A,1,
+Knife,1,<Agent's,,20,>Lance,1d6,25,,20,1,,x3,3.375,,"Electrified: Once per combat, deal an additional 1d6 electric damage.",2,<Conductive,,1,,N/A,1,,N/A,1,
+Knife,1,<Rose,,21,>Forte,1d6,25,^Honest Feedback,20,1,,x4,5.0625,,Electrified: With each hit deal an additional 1d6 electric damage.,4.5,^Electra,,1,,N/A,1,,N/A,1,
+Knife,1,<Vermillion,,22,>Echelon,1d6,25,,20,1,,x4,5.0625,,,1,,Torturous: double to all will saves vs pain induced by this dagger.,1.5,<Twisted,N/A,1,,N/A,1,
+Knife,1,<Sable,,23,>Chisel,1d4,10,,19-20,1.4,,x5,7.59375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Ashen,,24,>``Paintbrush'',1d4,10,,19-20,1.4,,x6,11.390625,,,1,,"Dagger grants a +1 bonus on climb, craft, medical and repair checks.",1.2,<Swiss,N/A,1,,N/A,1,
+Knife,1,<Charcoal,,25,>Tahoma,1d4+1,35,,18-20,1.96,,x7,17.0859375,>spleen remover,,1,,"Dagger grants a +1 bonus on climb, craft, medical and repair checks.",1.2,<Ranger's,N/A,1,,N/A,1,
+Knife,1,<Smoken,,26,>Serif,1d4+1,35,,17-20,2.744,^Lacerator,x8,25.62890625,<Marshmellow,"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)",1.2,^Leverage,"Dagger grants a +2 bonus on climb, craft, medical and repair checks.",1.5,<Mountaineer's,N/A,1,,N/A,1,
+Knife,1,<Pallid,,27,>Kerner,1d4,10,,20,1,,x2,2.25,,"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)",1.2,<Serrated,Dagger grants +2 on skill checks to disable devices and pick locks,1.2,<Thief's,N/A,1,,N/A,1,
+Knife,1,< ,,15,>Mortis,1d4,10,,20,1,,x2,2.25,,"Threatening: Whenever you make an intimidate check using this dagger, you may roll as if rolling damage, and add this roll to your intimidate score (no crits)",1.2,^Scarmaker,,1,,N/A,1,,N/A,1,
+Knife,1,< ,,16,^Lorem Ipsum,1d4,10,,20,1,,x2,2.25,,,1,,Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined,0.8,<Shaky,N/A,1,,N/A,1,
+Knife,1,< ,,17,>Vitae,1d4,10,,20,1,,x3,3.375,,,1,,Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined,0.8,,N/A,1,,N/A,1,
+Knife,1,< ,,18,>Velit,1d4,10,,20,1,,x3,3.375,,,1,,Broken: Make a DC 15 repair check to fix this up for use (Failure indicates weapon is ruined,0.8,,N/A,1,,N/A,1,
+Knife,1,< ,,19,>Tempor,1d4,10,,20,1,,x3,3.375,,+5 critical hit range during surprise rounds.,2.6,<First Blood,,1,,N/A,1,,N/A,1,
+Knife,1,< ,,20,>Dictum,1d6,25,,20,1,,x3,3.375,,,1,,Busted: Make a DC 25 repair check to fix this up for use (Failure indicates weapon is ruined,0.5,,N/A,1,,N/A,1,
+Knife,1,<Angled,,21,>Purus,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Exquisite,,22,>Moriece,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Unholy,,23,>Exo,1d4,10,,19-20,1.4,,x5,7.59375,,+1 Aim,1.3,<Masterwork Ramsteel,,1,,N/A,1,,N/A,1,
+Knife,1,<Barberous,,24,>Skinning knife,1d4,10,,19-20,1.4,,x6,11.390625,,+1 Aim,1.3,<Mastwork BloodIron,,1,,N/A,1,,N/A,1,
+Knife,1,<Liquid,,25,>Switchblade,1d4+1,35,,18-20,1.96,,x7,17.0859375,,+1 Aim,1.3,<Masterwork CarbonSteel,,1,,N/A,1,,N/A,1,
+Knife,1,<Thirsty,,26,>Hunting knife,1d4+1,35,,17-20,2.744,<Guided,x8,25.62890625,^Banana Nut Muffin,+1 Aim,1.3,<Masterwork Ivory,"Anyone damage by this weapon is now bleeding (1ph per turn, does not stack)",3,<Barbed,N/A,1,,N/A,1,
+Knife,1,<Slim,,27,>Finisher,1d4,10,,20,1,,x2,2.25,,+1 Aim,1.3,<Masterwork Paladium,"Anyone damage by this weapon is now bleeding (1ph per turn, does not stack)",3,>Bloodletter,N/A,1,,N/A,1,
+Knife,1,<Overt,,15,>Ruberick,1d4,10,,20,1,,x2,2.25,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Lighthearted,,16,>Artisian,1d4,10,,20,1,,x2,2.25,,,1,,"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)",1.5,^Vein Opener,N/A,1,,N/A,1,
+Knife,1,<Jester's,,17,>Conditional,1d4,10,,20,1,,x3,3.375,,,1,,"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)",1.5,,N/A,1,,N/A,1,
+Knife,1,<Forgetful,,18,>Acompalice,1d4,10,,20,1,,x3,3.375,,,1,,"Anyone critically damage by this weapon is now bleeding (1ph per turn, does not stack)",1.5,,N/A,1,,N/A,1,
+Knife,1,<Hand-Me-Down,,19,>Thorn,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Uncle's,,20,>Spike,1d6,25,,20,1,,x3,3.375,,+2 aim when making AoO.,1.4,>Opportunist,+2 aim when making AoO.,1.4,<Punctual,N/A,1,,N/A,1,
+Knife,1,<Quality,,21,>Barb,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Blackhaft,,22,>Skewer,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Chrome,,23,>Impaler,1d4,10,,19-20,1.4,,x5,7.59375,,All succesful AoO made with this weapon are considered critical,2.4,>Opportunist,,1,,N/A,1,,N/A,1,
+Knife,1,<Carbon,,24,>Stake,1d4,10,,19-20,1.4,,x6,11.390625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Sleeper's,,25,>Tine,1d4+1,35,,18-20,1.96,,x7,17.0859375,,,1,,"Whenever a character is damaged by this weapon, halve all healing the receive until the next round",1.3,<Messy,N/A,1,,N/A,1,
+Knife,1,<Clinical,,26,>Reclaimer,1d4+1,35,,17-20,2.744,<Truestrike,x8,25.62890625,>Morgue filler,,1,,"Whenever a character is damaged by this weapon, halve all healing the receive until the next round",1.3,>Gore,N/A,1,,N/A,1,
+Knife,1,<Shining,,27,>Heiroglyph,1d4,10,,20,1,,x1,0.8,<Blunt,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Eastmarket,,15,>Caesura,1d4,10,,20,1,,x2,2.25,,This item counts as two daggers,1.9,<Twin,,1,,N/A,1,,N/A,1,
+Knife,1,<Rustcliff,,16,>Discontinuous,1d4,10,,20,1,,x2,2.25,,,1,,Immune to fingerprints.,1.1,<Clean,N/A,1,,N/A,1,
+Knife,1,<Embassy,,17,>Rictus,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Backalley,,18,>Stiletto,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Mugger's,,19,>Knife,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Hefty,,20,>Dagger,1d6,25,,20,1,,x3,3.375,,~KnifeStory~,1,,~KnifeStory~,1,,N/A,1,,N/A,1,
+Knife,1,<Voiceless,,21,>Blade,1d6,25,,20,1,,x4,5.0625,,~KnifeStory~,1,,~KnifeStory~,1,,N/A,1,,N/A,1,
+Knife,1,<Singing,,22,>Edge,1d6,25,,20,1,,x4,5.0625,,,1,,~KnifeStory~,1,,N/A,1,,N/A,1,
+Knife,1,<Backalley,,23,>Switchblade,1d4,10,,19-20,1.4,,x5,7.59375,,,1,,~KnifeStory~,1,,N/A,1,,N/A,1,
+Knife,1,<Ramsteel,,24,>Hunting knife,1d4,10,,19-20,1.4,,x6,11.390625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<BloodIron,,25,>Cyrillic,1d4+1,35,,18-20,1.96,>Dirac,x7,17.0859375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Deadbook,,26,>Shard,1d4+1,35,,17-20,2.744,<Death's own,x8,25.62890625,<Achillie's,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Butterfly,,27,>Caligraphy,1d4,10,,20,1,,x2,2.25,,,1,,Gain +5 on all manipulate and deception checks made to excuse or explain away this weapon,2.5,<Innocuous,N/A,1,,N/A,1,
+Knife,1,<Strawberry,,15,>Contra,1d4,10,,20,1,,x2,2.25,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Cowardly,,16,>Dossier,1d4,10,,20,1,,x2,2.25,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Solitary,,17,>Jitte,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Stained,,18,>Correction,1d4,10,>Blood Taster,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,1,<Insolent,,19,>Pedantic,1d4,10,,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,0.93,<Sale price,,20,>Assistant,1d6,25,<Angelsteel,20,1,,x3,3.375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,3,<Overpriced,,21,>Paradox,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,15,<Gemstone,,22,>Sai,1d6,25,,20,1,,x4,5.0625,,,1,,,1,,N/A,1,,N/A,1,
+Knife,15,<Golden,,23,>Sickle,1d8,100,^The Cleaver,19-20,1.4,,x5,7.59375,,,1,,,1,,N/A,1,,N/A,1,
+Knife,15,,,24,,,,,,,,,,,,,,,,,,,,,,

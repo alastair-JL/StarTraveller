@@ -56,13 +56,14 @@ CSV2WepList<-function(FileName){
 RevolverList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Revolvers.csv")
 SwordList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/SwordList.csv")
 KnifeList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/KnifeList.csv")
+ClubList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/ClubList.csv")
 PistolList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Pistols.csv")
 ShotgunList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Shotgun.csv")
 RifleList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Rifles.csv")
 
 
 FireArms<-list(RevolverList,PistolList,RifleList,ShotgunList)
-MeleeWeps<-list(KnifeList,SwordList)
+MeleeWeps<-list(KnifeList,SwordList,ClubList)
 GeneralWeps<-list(RevolverList,KnifeList,SwordList,PistolList,ShotgunList,RifleList)
 BigList<-list(GeneralWeps,FireArms,MeleeWeps)
 
