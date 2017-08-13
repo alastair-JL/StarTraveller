@@ -1,8 +1,5 @@
 
 
-beA<- function(x){As= rep("A",length(x))}
-
-
 MakeWeapon<- function(WeaponList){
   WeaponEffects<-WeaponList[[1]]
   WeaponPrice<- WeaponList[[2]]
@@ -53,6 +50,63 @@ CSV2WepList<-function(FileName){
 }
 
 
+IterateSimpleGrammer<-function(EffectString,Grammer){  
+  if(length(grep("~",EffectString))==0){
+    return("STOP")
+  }
+  pattern <- "~[a-z|A-Z]*~"
+  ## Match data from regexpr()
+  m <- regexpr(pattern, EffectString)
+  ThingToReplace<-  regmatches(EffectString, m)     
+  if(!any(Grammer[,1]==ThingToReplace)){
+    warning(paste("thing not found",ThingToReplace) )
+    return("STOP")
+  }
+  RowNum <- which(Grammer[,1]==ThingToReplace)   
+  PossibleVals<-which(!is.na(Grammer[RowNum,]))
+  PossibleVals<-c(PossibleVals[-1],PossibleVals[-1])   
+  ChoosenVal<-sample(PossibleVals,1)
+  EffectReplace<-Grammer[RowNum,ChoosenVal]
+  grep(ThingToReplace,EffectString)
+  EffectString<-sub(pattern= ThingToReplace,replacement=EffectReplace,x= EffectString)
+  return(EffectString)
+}
+
+
+SimpleGrammerIterationLoop<-function(StartString,Grammer,number=10){
+  ItemTable<- data.frame(Texts="Texts",stringsAsFactors=FALSE)
+  jjj<-1
+  while(jjj<=number){
+    EffectString<-StartString    
+    iii<-1
+    while(iii<1000){
+      iii<-iii+1
+      returnVal<-IterateSimpleGrammer(EffectString,Grammer)
+      if(returnVal=="STOP"){
+        iii=9999
+      }else{    
+        EffectString<-returnVal        
+      print(EffectString)
+      }      
+    }    
+    ItemTable[jjj,1]<-EffectString
+    jjj<-jjj+1
+  }
+  return(ItemTable)
+}
+
+
+CleanTableWithGrammer<-function(TableToClear,Grammer){
+  
+  for(iii in 1:nrow(TableToClear)){
+    for(jjj in 1:ncol(TableToClear)){
+      TableToClear[iii,jjj]= SimpleGrammerIterationLoop(TableToClear[iii,jjj],Grammer,number=1)
+     } 
+  }
+  return(TableToClear)
+}
+
+
 RevolverList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Revolvers.csv")
 SwordList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/SwordList.csv")
 KnifeList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/KnifeList.csv")
@@ -60,6 +114,8 @@ ClubList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTravell
 PistolList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Pistols.csv")
 ShotgunList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Shotgun.csv")
 RifleList<-CSV2WepList("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Rifles.csv")
+
+WepStoryGrammer <- read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WepStory.csv", sep=";",stringsAsFactors=FALSE,,header=FALSE,na.strings = c("", " "))
 
 
 FireArms<-list(RevolverList,PistolList,RifleList,ShotgunList)
@@ -100,6 +156,8 @@ MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=
            ShopList<-rbind(ShopList,NextItem[[2]])      
   }
   ShopList<-ShopList[-1,]
+  ShopList<-CleanTableWithGrammer(ShopList,WepStoryGrammer)
+  
   attach(ShopList)
   ShopList<-ShopList[order(Type,Price),]
   detach(ShopList)  
