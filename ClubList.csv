@@ -55,7 +55,7 @@
 "Bludgeoning";1;"<Blackout";;2;">Wipe";4;91.2247;;20;1;;"x1";1;;"+2 aim when used vs metalic or armoured opponents";1.2;"<Neodidium";;1;;"N/A";1;"N/A";1;1;
 "Bludgeoning";1;"<Whiteiron";;3;">Wrangler";5;173.32693;;20;1;;"x1";1;;;1;;"Busted: Make a DC 25 craft check to fix this up for use (Failure indicates weapon is ruined)";0.5;"<Munted";"N/A";1;"N/A";1;1;
 "Bludgeoning";1;"<Polished";;4;"> ``Kung fu''";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1;1;
-"Bludgeoning";1;"<Burnished";;1;">Soundtrack";3;48.013;;20;1;;"x1";1;;"Doubles as a piece of engineering equipment: +1 engineering.";1;"<Engineer’s";"Take a DC 10 fortitude save vs radiation poisoning. If you fail, take a permanent -1 Con penalty.";0.5;"<Uranium alloy";"N/A";1;"N/A";1;1;
+"Bludgeoning";1;"<Burnished";;1;">Soundtrack";3;48.013;;20;1;;"x1";1;;"Doubles as a piece of engineering equipment: +1 engineering.";1;"<Engineer’s";"Each day you spend using this weapon take a DC 10 fortitude save vs radiation poisoning. If you fail, take a permanent -1 penalty to health.";0.5;"<Uranium alloy";"N/A";1;"N/A";1;1;
 "Bludgeoning";1;"<Cancelled";;2;">Matte";4;91.2247;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1;1;
 "Bludgeoning";1;"<Exile's";;3;">Judder";5;173.32693;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1;1;
 "Bludgeoning";1;"<Tsuku";;4;">MOS";6;329.321167;;20;1;;"x1";1;;;1;;;1;;"N/A";1;"N/A";1;1;

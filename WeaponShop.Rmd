@@ -44,6 +44,15 @@ shinyUI(fluidPage(
                 Filter$topPrice<-max(2.5^(input$priceBounds[2]),300, Filter$botPrice*5)              
                 MakeWeaponShop(GeneralWeps,numItems=20,output=FALSE,seed=input$n,Filters=NULL)
             })
+      }),
+          renderDataTable({
+             input$goButton
+             isolate({
+                Filter=list()
+                Filter$botPrice<-min(2.5^(input$priceBounds[1]),1500)      
+                Filter$topPrice<-max(2.5^(input$priceBounds[2]),300, Filter$botPrice*5)              
+                CoupledGrammerIterationLoop("~~",TrinketGrammer,numItems=20,output=FALSE,seed=input$n,Filters=NULL)
+            })
       })
   )) ##NOTE: here is end of fluid row
 )#End fluid page

@@ -167,3 +167,114 @@ MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=
   }
   return(ShopList)
 }
+
+
+
+CoupledIterateGrammer<-function(String,Grammer,previous){  
+  if(seed>0){
+    set.seed(seed)
+  }
+  
+  if(length(grep("~",String))==0){
+    return(NA)
+  }
+  pattern <- "~[a-z|A-Z]*~"
+  ## Match data from regexpr()
+  m <- regexpr(pattern, String)
+  ThingToReplace<-  regmatches(String, m)    
+  
+  if(!any(Grammer[,1]==ThingToReplace)){ 
+    stop(paste("thing not found",ThingToReplace) )
+  }  
+  
+  ##This Line selects the particular instance of the thing to use.
+  RowNum <- which(Grammer[,1]==ThingToReplace)
+  
+  print(ThingToReplace)
+  
+  if(substr(ThingToReplace,2,3)!="QQ"){
+    if((length(intersect(RowNum,previous))>0)){          
+      RowNumT<-sample(c(intersect(RowNum,previous),intersect(RowNum,previous)),1)    
+    }else{    
+      RowNumT<-sample(c(RowNum,RowNum),1)
+    }    
+    previous<c(previous,RowNumT)         
+    String<-gsub(pattern= paste0(ThingToReplace,"1"),replacement=Grammer[RowNumT,2],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"2"),replacement=Grammer[RowNumT,3],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"3"),replacement=Grammer[RowNumT,4],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"4"),replacement=Grammer[RowNumT,5],x= String)  
+    String<-gsub(pattern= paste0(ThingToReplace,"5"),replacement=Grammer[RowNumT,6],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"6"),replacement=Grammer[RowNumT,7],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"7"),replacement=Grammer[RowNumT,8],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"8"),replacement=Grammer[RowNumT,9],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace,"9"),replacement=Grammer[RowNumT,10],x= String)
+    String<-gsub(pattern= paste0(ThingToReplace),replacement=Grammer[RowNumT,2],x= String)
+  }else{    
+    print("QQ")
+    
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"1"),replacement=Grammer[RowNumT,2],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)    
+    String<-sub(pattern= paste0(ThingToReplace,"2"),replacement=Grammer[RowNumT,3],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"3"),replacement=Grammer[RowNumT,4],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"4"),replacement=Grammer[RowNumT,5],x= String)  
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"5"),replacement=Grammer[RowNumT,6],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"6"),replacement=Grammer[RowNumT,7],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"7"),replacement=Grammer[RowNumT,8],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"8"),replacement=Grammer[RowNumT,9],x= String)
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,"9"),replacement=Grammer[RowNumT,10],x= String)    
+  }
+  
+  return(list(String,previous))
+}
+
+
+CoupledGrammerIterationLoop<-function(StartString,Grammer,number=10){
+  ItemTable<- rep("TEST",number)
+  Name<- c()
+  Price<- c()
+  Description<- c()
+  
+  jjj<-1
+  while(jjj<=number){
+    String<-StartString
+    previous<-0;
+    print(String)    
+    iii<-1
+    while(iii<1000){
+      iii<-iii+1
+      returnVal<-CoupledIterateGrammer(String,Grammer,previous)
+      if(!is.list(returnVal)){
+        iii=9999
+      }else{    
+        String<-returnVal[1][[1]]              
+        previous<-returnVal[2][[1]]        
+      }      
+    }
+    #    cost<-eval(parse(text=CostString))
+    ItemTable[jjj]<-String
+    
+    SplitString<- strsplit(String,"|",fixed=TRUE)
+    
+    
+    Name <-c(Name,SplitString[[1]][1])
+    Price <-c(Price,eval(parse(text=SplitString[[1]][2])))
+    Description <-c(Description,SplitString[[1]][3])
+    
+    jjj<-jjj+1
+  }
+  
+  ItemFrame= data.frame(Name,Price,Description)  
+  return(ItemFrame)
+}
+
+
+TrinketGrammer<-read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/TrinketGrammer.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)
+
