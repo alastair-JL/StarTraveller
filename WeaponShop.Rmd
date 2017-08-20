@@ -6,7 +6,9 @@ output: html_document
 
 ```{r,echo=FALSE}
 library(shiny)
-source("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WeaponsShopHelper.R")
+source("WeaponsShopHelper.R")
+
+#source("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WeaponsShopHelper.R")
 
 shinyUI(fluidPage(
   titlePanel("StarTraveller Shop")
@@ -51,7 +53,7 @@ shinyUI(fluidPage(
                 Filter=list()
                 Filter$botPrice<-min(2.5^(input$priceBounds[1]),1500)      
                 Filter$topPrice<-max(2.5^(input$priceBounds[2]),300, Filter$botPrice*5)              
-                CoupledGrammerIterationLoop("~~",TrinketGrammer,numItems=20,output=FALSE,seed=input$n,Filters=NULL)
+                CoupledGrammerIterationLoop("~RandomItem~",TrinketGrammer,seed=input$n)
             })
       })
   )) ##NOTE: here is end of fluid row

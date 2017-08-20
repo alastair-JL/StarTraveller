@@ -1,149 +1,149 @@
-Template;1;2;3;4;5;6;7;8;9;10
-~ClothesTemplate~;~SuitTemplate~;;;;;;;;;
-~ClothesTemplate~;~StuntwareTemplate~;;;;;;;;;
-~ClothesTemplate~;~SummerDressTemplate~;;;;;;;;;
-~ClothesTemplate~;~BallGownTemplate~;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~ClothesPriceRand~;1.02;;;;;;;;;
-~ClothesPriceRand~;1.1;;;;;;;;;
-~ClothesPriceRand~;0.98;;;;;;;;;
-~ClothesPriceRand~;0.95;;;;;;;;;
-~ClothesPriceRand~;1.05;;;;;;;;;
-~ClothesPriceRand~;1;;;;;;;;;
-;;;;;;;;;;
-~SuitTemplate~;Suit |  250*~SuitDescribeA~2 * ~SuitDescribeB~2 * ~SuitSpecial~2 *~ClothesPriceRand~  | A ~SuitDescribeA~1 ~SuitDescribeB~1 suit. ~SuitSpecial~1;;;;;;;;;
-;;;;;;;;;;
-~SuitDescribeA~;sharp;1;;;;;;;;
-~SuitDescribeA~;broad shouldered;1;;;;;;;;
-~SuitDescribeA~;fasionable;1;;;;;;;;
-~SuitDescribeA~;stylish;1;;;;;;;;
-~SuitDescribeA~;timeless;1.05;;;;;;;;
-~SuitDescribeA~;custom tailored;1.6;;;;;;;;
-~SuitDescribeA~;precise;1;;;;;;;;
-~SuitDescribeA~;subtle;1;;;;;;;;
-~SuitDescribeA~;steelclasped;1;;;;;;;;
-~SuitDescribeA~;forgetable;0.8;;;;;;;;
-~SuitDescribeA~;tatty;0.7;;;;;;;;
-~SuitDescribeA~;Magnificent;1.6;;;;;;;;
-;;;;;;;;;;
-~SuitDescribeB~;black;1;;;;;;;;
-~SuitDescribeB~;chracoal;1;;;;;;;;
-~SuitDescribeB~;grey;1;;;;;;;;
-~SuitDescribeB~;black;1;;;;;;;;
-~SuitDescribeB~;black;1;;;;;;;;
-~SuitDescribeB~;silk;1;;;;;;;;
-~SuitDescribeB~;double breasted;1;;;;;;;;
-~SuitDescribeB~;modern;1;;;;;;;;
-~SuitDescribeB~;classical;1;;;;;;;;
-~SuitDescribeB~;white;1;;;;;;;;
-~SuitDescribeB~;grey;1;;;;;;;;
-~SuitDescribeB~;woolen;1;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~SuitSpecial~;perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 acrobatics;1;;;;;;;;
-~SuitSpecial~;a surprisingly large number of pockets. +2 slieght of hand to hiding things about your person.;1.3;;;;;;;;
-~SuitSpecial~;the inner pocket is readily accesible. You can fit only one item there, but can withdraw it as an interupt action.;1.3;;;;;;;;
-~SuitSpecial~;perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 acrobatics;1;;;;;;;;
-~SuitSpecial~;bulletproof lining. +1 DR vs bullets;2;;;;;;;;
-~SuitSpecial~;Extreme bulletproof lining. +3 DR vs bullets. -5 acrobatics and stealth.;4;;;;;;;;
-~SuitSpecial~;Jotunn sized;1.5;;;;;;;;
-~SuitSpecial~;perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 acrobatics;1;;;;;;;;
-~SuitSpecial~;Comes with a matching silk waistcoat, +3 Fancy, -2 acrobatics;1.2;;;;;;;;
-~SuitSpecial~;Complimentary cufflinks;1;;;;;;;;
-~SuitSpecial~;perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 acrobatics;1;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~StuntwareTemplate~;~StuntwareDescribeA~1 ~StuntwareDescribeB~1 | 250*~StuntwareDescribeA~2 * ~StuntwareDescribeB~2 *~ClothesPriceRand~  | ~StuntwareDescribeB~4. ~StuntwareDescribeA~3. ~StuntwareDescribeB~3.;;;;;;;;;
-;;;;;;;;;;
-~StuntwareDescribeA~;Charcoal black;1.3;+2 stealth vs vision.;;;;;;;
-~StuntwareDescribeA~;Hardy;1.1;Ignores item damage.;;;;;;;
-~StuntwareDescribeA~;Tight fitting;1.4;+3 acrobatics.;;;;;;;
-~StuntwareDescribeA~;Neon stripe;1;Complete with Neon yellow racing strips. Fancy!;;;;;;;
-~StuntwareDescribeA~;2nd hand;0.9;Previously used. ;;;;;;;
-~StuntwareDescribeA~;Skull Emblem;1.2;+3 intimidate -3 diplomacy. (-1 diplomacy to anyone who is considered associated with you);;;;;;;
-~StuntwareDescribeA~;Stain resistant;1;Resistant to all sorts of stains- ink, oil, even blood!;;;;;;;
-~StuntwareDescribeA~;Matching;1.7;A pair of matching costumes. +1 intimidate and style when warn by a dynamic duo.;;;;;;;
-~StuntwareDescribeA~;Slashproof;1.5;Gain +5 damage resistance vs slashing damage (knives, claws, certain types of swords);;;;;;;
-~StuntwareDescribeA~;Wormcoil;1.8;Can be unravelled in less than 5 minutes to form a sturdy 20 meter long rope. Depending what else you are wearing, you may be naked afterwards.;;;;;;;
-~StuntwareDescribeA~;Needleback;2;Anyone attempting to grab of grapple you while you are wearing this takes 2d6 damage.;;;;;;;
-~StuntwareDescribeA~;Fireproof;1;This garment will never catch fire, nor will you, while wearing it.;;;;;;;
-~StuntwareDescribeA~;Grounded;1;Grants +2 resistance vs eletrical damage.;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~StuntwareDescribeB~;Compression walker;1;Protects from decompression damage.;;;;;;;
-~StuntwareDescribeB~;Emergency birdsuit;2;When falling, pull cable to release emergency �wings�. Requires minimum 10 story drop, and a fly check to actually land the thing safely.;A common precaution worn by pilots and rock climbers.;;;;;;
-~StuntwareDescribeB~;Thermagaurd.;3;Halve all incoming fire or ice damage. +10 on saves vs long term heat or cold.;The classic protectionware for workers dealing with sharp fluctuations in temperature.;;;;;;
-~StuntwareDescribeB~;Nixskin.;1;This strange rough fabric grants a+5 on swim checks. ;Not actually made out of Nix skin- just a brand name.;;;;;;
-~StuntwareDescribeB~;Climbers garb.;1;+3 on climb checks when warn, and if rigged up to a rope protection from the worst results critical fumbles (set backs may still happen).;The jacket and pants are riddled with clip points and handles, all stiched safely enough and angled correctly such that any one of them could catch you. Also shoes and gloves.;;;;;;
-~StuntwareDescribeB~;Gecko's tail;1;Gain a +5 bonus against all grapple attempts, and +5 on escape artist attempts made to get away if grabbed.;The central shirt and pants are covered in wavery loose fabric, easily torn off.;;;;;;
-~StuntwareDescribeB~;HEV Suit;20;+5 resistance to fire, ice, acid, lighting, radiation, magnetism, and Combine. Heals the user 1d12 health once per day.;Have a very safe day.;;;;;;
-~StuntwareDescribeB~;Suncloak;4;Illuminates 20 meter radius, and makes you and everyone adjacent somewhat hard to look at (+1 def vs ranged attacks while active). ;Originally thought up as a somewhat garish fasion statement, Suncloaks also prove useful for lighting caves and attracting sniper fire.;;;;;;
-~StuntwareDescribeB~;Dreamweave;1;When activated flickers colour and shapes across its surface in response to music (or any other loud noises);The latest craze in the Embassy nightscene;;;;;;
-~StuntwareDescribeB~;Gelsuit;3;+3 stealth vs being heard.;This weirdly squish garment makes almost no sound.;;;;;;
-~StuntwareDescribeB~;Anysuit;5;Contains five unique ``styles''. Appropriate use of this will grant a +5 to disguise.;Change your style at the press of a button. ;;;;;;
-~StuntwareDescribeB~;ScanJammer;10;The perfect  clothes for getting past security.;A highly illegal garment with a single pocket completely shielded from all known forms of scanning.;;;;;;
-~StuntwareDescribeB~;Chicken Costume;1;For those whose one life goal was the be a chicken.;A bulky chicken costume, with awkward wide feet. -5 to stealth, acrobatic, intimidate and perception. -15 to swim.;;;;;;
-~StuntwareDescribeB~;Stillsuit;3;A dessert dwellers stillsuit. Resistant to dust, and able to capture up to 98.3% of a bodies water, suitable for recycling, significantly reducing the supplies that must be carried;;;;;;;
-~StuntwareDescribeB~;Mothcloak;1.5;A airy billowing cloak, patterend with a variety of blacklight patterns suitable for signaling, and also convertible into a vertical hanging �cacoon� suitable for sleeping in as long as you've got a tree or something to hang from.;;;;;;;
-~StuntwareDescribeB~;Statueskin;3;Activate as an interupt action to turn the out skin of this clothing into an inflexible +30 damage resistance barrier (vs all physical damage). You won't be able to move afterwards until the Statueskin is dissolved off (solvent comes with clothes);The very best in personal self defence, aside from the inability to move afterwards.;;;;;;
-;;;;;;;;;;
-~SummerDressTemplate~;~SummerdressType~1 | ~ClothesPriceRand~1*~QQSummerdressFragment~4 | A ~QQSummerdressFragment~1, ~QQSummerdressFragment~2 ~SummerdressType~2. ~QQSummerdressFragment~3;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~QQSummerdressFragment~;cheerful;lemony;the ruffles around the hem look like tiny flowers.;60;birds and branches;screenprinted;across the side;``Courage my love’’;;
-~QQSummerdressFragment~;airy;coral;It appears to be Jotunn size... but you don't think you've ever seen a Jotunn in a summer dress.;35;Ocean waves;sewn ;covering the entire dress;``Damn it feels good to be a gangster’’;;
-~QQSummerdressFragment~;elegant;pasteltone;Comes with a matching pair of sunglasses;120;spots and lines;embroided;across the chest.;``This too will pass’’;;
-~QQSummerdressFragment~;flirtatious;Tye-dye;For some reason this dress comes with giant ruffled sleeves.;86;skulls and hearts;woven into the fabric;running down the back;``You can never go back’’;;
-~QQSummerdressFragment~;charming;turquoise;Perfect for picnics and croquette;57;moon and stars;stiched onto;along the hem;``Wake me up at cocktail hour.’’;;
-~QQSummerdressFragment~;strapless;lavender;There's a pattern of ~QQSummerdressFragment~5 ~QQSummerdressFragment~6 ~QQSummerdressFragment~7.;67;geometric shapes;screenprinted;across the side;``Badass bitch’’;;
-~QQSummerdressFragment~;stripy;golden;~QQSummerdressFragment~7 there's a pattern of ~QQSummerdressFragment~5 ~QQSummerdressFragment~6 .;45;wiggly shapes;sewn ;covering the entire dress;``Zombie Pirate Ninja Robot’’;;
-~QQSummerdressFragment~;fun;floral;The words ~QQSummerdressFragment~8 are ~QQSummerdressFragment~6 ~QQSummerdressFragment~7.;98;ship schematics;embroided;across the chest.;``Awoken from the waking dreaming’’;;
-~QQSummerdressFragment~;cute;caramel yellow;;43;a city skyline;in the fabric;running down the back;``Destiny channel’’;;
-~QQSummerdressFragment~;fresh;patterened;Simple yet practical.;62;roads and contours;stiched onto;along the hem;``Don't forget me.’’;;
-~SummerdressType~;Summer dress;summer dress;;;;;;;;
-~SummerdressType~;Picnic skirt;picnic skirt;;;;;;;;
-~SummerdressType~;Tea dress;tea dress;;;;;;;;
-~SummerdressType~;Skirt;knee length skirt;;;;;;;;
-~SummerdressType~;Dress;day dress;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~BallGownTemplate~;Dress |~ClothesPriceRand~1*~QQFancyDressFragment~4| ~DressFabricComment~ ~QQFancyDressFragment~1 ~QQFancyDressFragment~2.~QQFancyDressFragment~5.;;;;;;;;;
-~QQFancyDressFragment~;the asymetrical cut exposes ones leg suggestively,;, perfect for dancing tango or foxtrot on the dancefloor;;670;;;;;;
-~QQFancyDressFragment~;the dress exudes power and presence;, with a plunging V neck perfect for seducing those with such interests. (+3 diplomacy checks made to distract or seduce, if applicable);;240;;;;;;
-~QQFancyDressFragment~;it seems like a fairly standard cocktail dress;and embrodied with sequins and sparkly beads.;;900;;;;;;
-~QQFancyDressFragment~;The dress is made of sharp folds, reminiscent of Oragami;The tight fitting fabric leaves little to the imagination.;;525;;;;;;
-~QQFancyDressFragment~;The waistline is pulled tight by some sort of big oversized bow;. The dress is modest, inviting not TOO much attention.;;160;;;;;;
-~QQFancyDressFragment~;Both waterproof and spaceproof, the latest fashion in the nine-gardens;. There is a barely discernable dragon stitched into the back, in almost the same colour as the dress itself.;;359;;;;;;
-~QQFancyDressFragment~;Playful and fun;yet somehow there's something weirdly off with this dress. You can't put your finger on it.;;450;;;;;;
-;;;;;;;;;;
-~BallGownTemplate~;BallGown. Cost: ~ClothesPriceRand~1*~QQRuffleGownFragment~4. Description: ~QQRuffleGownFragment~1. ~DressFabricComment~ ~QQRuffleGownFragment~3.~QQRuffleGownFragment~5.;;;;;;;;;
-~QQRuffleGownFragment~;An impractical looking dress;;and it looks wide enough you might be able to hide an extra person underneath;670;-10 to acrobatics,climb and initiative.;;;;;
-~QQRuffleGownFragment~;An unweildy ballgown;;, you're pretty sure you could wear body armour undeneath and no one would know;1200;-4 to acrobatics,climb and initiative. You're pretty sure if this thing caught fire it would be REALLY difficult to put out.;;;;;
-~QQRuffleGownFragment~;A bellbottom dress;;with half a dozen pockets sewn subtley amongst the fabric. +5 slight of hand to hide things. You can retrieve hidden items as a full round action.;870;-5 to acrobatics,climb, initiative and stealth- the damn thing makes a weird rustling noise wherever you go.;;;;;
-~QQRuffleGownFragment~;A great flowing trumpet dress.;;, you've heard this fashion is much the rage in the city of Landing.;723;-5 to acrobatics,climb and initiative. -2 to movement.;;;;;
-~QQRuffleGownFragment~;A many layered ballgown;;. The dress is designed to waft appropriately both in zero G, and underwater.;3400;-3 to acrobatics, climb and initiative. -2 to movement speed. You can not run in this dress.;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-;;;;;;;;;;
-~DressFabricComment~;~QQDressFabricCommentFragment~1 ~QQDressFabricCommentFragment~2 ~QQDressFabricCommentFragment~3;;;;;;;;;
-~QQDressFabricCommentFragment~;The entire thing is;an eyecatching ;silver gold;;;;;;;
-~QQDressFabricCommentFragment~;The dress is;a seductive ;shade of red;;;;;;;
-~QQDressFabricCommentFragment~;The fabric is;a calming ;green shade;;;;;;;
-~QQDressFabricCommentFragment~;Sewn togeather from;a delicate ;midnight blue;;;;;;;
-~QQDressFabricCommentFragment~;Sewn togeather from;some weird sort of;turquise;;;;;;;
-~QQDressFabricCommentFragment~;The entire thing is;a glossy;pure white;;;;;;;
-~QQDressFabricCommentFragment~;The dress is;a uninspiring;honeycomb yellow;;;;;;;
-~QQDressFabricCommentFragment~;The fabric is;fashionable;jet black;;;;;;;
+Template	1	2	3	4	5	6	7	8	9	10
+~ClothesTemplate~	~SuitTemplate~									
+~ClothesTemplate~	~StuntwareTemplate~									
+~ClothesTemplate~	~SummerDressTemplate~									
+~ClothesTemplate~	~BallGownTemplate~									
+										
+										
+~ClothesPriceRand~	1.02									
+~ClothesPriceRand~	1.1									
+~ClothesPriceRand~	0.98									
+~ClothesPriceRand~	0.95									
+~ClothesPriceRand~	1.05									
+~ClothesPriceRand~	1									
+										
+~SuitTemplate~	Suit |  250*~SuitDescribeA~2 * ~SuitDescribeB~2 * ~SuitSpecial~2 *~ClothesPriceRand~  | A ~SuitDescribeA~1 ~SuitDescribeB~1 suit. ~SuitSpecial~1									
+										
+~SuitDescribeA~	sharp	1								
+~SuitDescribeA~	broad shouldered	1								
+~SuitDescribeA~	fasionable	1								
+~SuitDescribeA~	stylish	1								
+~SuitDescribeA~	timeless	1.05								
+~SuitDescribeA~	custom tailored	1.6								
+~SuitDescribeA~	precise	1								
+~SuitDescribeA~	subtle	1								
+~SuitDescribeA~	steelclasped	1								
+~SuitDescribeA~	forgetable	0.8								
+~SuitDescribeA~	tatty	0.7								
+~SuitDescribeA~	Magnificent	1.6								
+										
+~SuitDescribeB~	black	1								
+~SuitDescribeB~	chracoal	1								
+~SuitDescribeB~	grey	1								
+~SuitDescribeB~	black	1								
+~SuitDescribeB~	black	1								
+~SuitDescribeB~	silk	1								
+~SuitDescribeB~	double breasted	1								
+~SuitDescribeB~	modern	1								
+~SuitDescribeB~	classical	1								
+~SuitDescribeB~	white	1								
+~SuitDescribeB~	grey	1								
+~SuitDescribeB~	woolen	1								
+										
+										
+~SuitSpecial~	perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 agility	1								
+~SuitSpecial~	a surprisingly large number of pockets. +2 slieght of hand to hiding things about your person.	1.3								
+~SuitSpecial~	the inner pocket is readily accesible. You can fit only one item there, but can withdraw it as an interupt action.	1.3								
+~SuitSpecial~	perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 agility	1								
+~SuitSpecial~	bulletproof lining. +1 DR vs bullets	2								
+~SuitSpecial~	Extreme bulletproof lining. +3 DR vs bullets. -5 agility and stealth.	4								
+~SuitSpecial~	Jotunn sized	1.5								
+~SuitSpecial~	perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 agility	1								
+~SuitSpecial~	Comes with a matching silk waistcoat, +3 Fancy, -2 agility	1.2								
+~SuitSpecial~	Complimentary cufflinks	1								
+~SuitSpecial~	perfect for formal gatherings, but somewhat stiff, +1 Fancy, -3 agility	1								
+										
+										
+										
+										
+~StuntwareTemplate~	~StuntwareDescribeA~1 ~StuntwareDescribeB~1 | 250*~StuntwareDescribeA~2 * ~StuntwareDescribeB~2 *~ClothesPriceRand~  | ~StuntwareDescribeB~4. ~StuntwareDescribeA~3. ~StuntwareDescribeB~3.									
+										
+~StuntwareDescribeA~	Charcoal black	1.3	+2 stealth vs vision.							
+~StuntwareDescribeA~	Hardy	1.1	Ignores item damage.							
+~StuntwareDescribeA~	Tight fitting	1.4	+3 agility.							
+~StuntwareDescribeA~	Neon stripe	1	Complete with Neon yellow racing strips. Fancy!							
+~StuntwareDescribeA~	2nd hand	0.9	Previously used. 							
+~StuntwareDescribeA~	Skull Emblem	1.2	+3 intimidate -3 diplomacy. (-1 diplomacy to anyone who is considered associated with you)							
+~StuntwareDescribeA~	Stain resistant	1	Resistant to all sorts of stains- ink, oil, even blood!							
+~StuntwareDescribeA~	Matching	1.7	A pair of matching costumes. +1 intimidate and style when warn by a dynamic duo.							
+~StuntwareDescribeA~	Slashproof	1.5	Gain +5 damage resistance vs slashing damage (knives, claws, certain types of swords)							
+~StuntwareDescribeA~	Wormcoil	1.8	Can be unravelled in less than 5 minutes to form a sturdy 20 meter long rope. Depending what else you are wearing, you may be naked afterwards.							
+~StuntwareDescribeA~	Needleback	2	Anyone attempting to grab of grapple you while you are wearing this takes 2d6 damage.							
+~StuntwareDescribeA~	Fireproof	1	This garment will never catch fire, nor will you, while wearing it.							
+~StuntwareDescribeA~	Grounded	1	Grants +2 resistance vs eletrical damage.							
+										
+										
+										
+~StuntwareDescribeB~	Compression walker	1	Protects from decompression damage.							
+~StuntwareDescribeB~	Emergency birdsuit	2	When falling, pull cable to release emergency �wings�. Requires minimum 10 story drop, and a fly check to actually land the thing safely.	A common precaution worn by pilots and rock climbers.						
+~StuntwareDescribeB~	Thermagaurd.	3	Halve all incoming fire or ice damage. +10 on saves vs long term heat or cold.	The classic protectionware for workers dealing with sharp fluctuations in temperature.						
+~StuntwareDescribeB~	Nixskin.	1	This strange rough fabric grants a+5 on swim checks. 	Not actually made out of Nix skin- just a brand name.						
+~StuntwareDescribeB~	Climbers garb.	1	+3 on climbing checks when warn, and if rigged up to a rope protection from the worst results critical fumbles (set backs may still happen).	The jacket and pants are riddled with clip points and handles, all stiched safely enough and angled correctly such that any one of them could catch you. Also shoes and gloves.						
+~StuntwareDescribeB~	Gecko's tail	1	Gain a +5 bonus against all grapple attempts, and +5 on escape artist attempts made to get away if grabbed.	The central shirt and pants are covered in wavery loose fabric, easily torn off.						
+~StuntwareDescribeB~	HEV Suit	20	+5 resistance to fire, ice, acid, lighting, radiation, magnetism, and Combine. Heals the user 1d12 health once per day.	Have a very safe day.						
+~StuntwareDescribeB~	Suncloak	4	Illuminates 20 meter radius, and makes you and everyone adjacent somewhat hard to look at (+1 def vs ranged attacks while active). 	Originally thought up as a somewhat garish fasion statement, Suncloaks also prove useful for lighting caves and attracting sniper fire.						
+~StuntwareDescribeB~	Dreamweave	1	When activated flickers colour and shapes across its surface in response to music (or any other loud noises)	The latest craze in the Embassy nightscene						
+~StuntwareDescribeB~	Gelsuit	3	+3 stealth vs being heard.	This weirdly squish garment makes almost no sound.						
+~StuntwareDescribeB~	Anysuit	5	Contains five unique ``styles''. Appropriate use of this will grant a +5 to disguise.	Change your style at the press of a button. 						
+~StuntwareDescribeB~	ScanJammer	10	The perfect  clothes for getting past security.	A highly illegal garment with a single pocket completely shielded from all known forms of scanning.						
+~StuntwareDescribeB~	Chicken Costume	1	For those whose one life goal was the be a chicken.	A bulky chicken costume, with awkward wide feet. -5 to stealth, acrobatic, intimidate and perception. -15 to swim.						
+~StuntwareDescribeB~	Stillsuit	3	A dessert dwellers stillsuit. Resistant to dust, and able to capture up to 98.3% of a bodies water, suitable for recycling, significantly reducing the supplies that must be carried							
+~StuntwareDescribeB~	Mothcloak	1.5	A airy billowing cloak, patterend with a variety of blacklight patterns suitable for signaling, and also convertible into a vertical hanging �cacoon� suitable for sleeping in as long as you've got a tree or something to hang from.							
+~StuntwareDescribeB~	Statueskin	3	Activate as an interupt action to turn the out skin of this clothing into an inflexible +30 damage resistance barrier (vs all physical damage). You won't be able to move afterwards until the Statueskin is dissolved off (solvent comes with clothes)	The very best in personal self defence, aside from the inability to move afterwards.						
+										
+~SummerDressTemplate~	~SummerdressType~1 | ~ClothesPriceRand~1*~QQSummerdressFragment~4 | A ~QQSummerdressFragment~1, ~QQSummerdressFragment~2 ~SummerdressType~2. ~QQSummerdressFragment~3									
+										
+										
+~QQSummerdressFragment~	cheerful	lemony	the ruffles around the hem look like tiny flowers.	60	birds and branches	screenprinted	across the side	``Courage my love’’		
+~QQSummerdressFragment~	airy	coral	It appears to be Jotunn size... but you don't think you've ever seen a Jotunn in a summer dress.	35	Ocean waves	sewn 	covering the entire dress	``Damn it feels good to be a gangster’’		
+~QQSummerdressFragment~	elegant	pasteltone	Comes with a matching pair of sunglasses	120	spots and lines	embroided	across the chest.	``This too will pass’’		
+~QQSummerdressFragment~	flirtatious	Tye-dye	For some reason this dress comes with giant ruffled sleeves.	86	skulls and hearts	woven into the fabric	running down the back	``You can never go back’’		
+~QQSummerdressFragment~	charming	turquoise	Perfect for picnics and croquette	57	moon and stars	stiched onto	along the hem	``Wake me up at cocktail hour.’’		
+~QQSummerdressFragment~	strapless	lavender	There's a pattern of ~QQSummerdressFragment~5 ~QQSummerdressFragment~6 ~QQSummerdressFragment~7.	67	geometric shapes	screenprinted	across the side	``Badass bitch’’		
+~QQSummerdressFragment~	stripy	golden	~QQSummerdressFragment~7 there's a pattern of ~QQSummerdressFragment~5 ~QQSummerdressFragment~6 .	45	wiggly shapes	sewn 	covering the entire dress	``Zombie Pirate Ninja Robot’’		
+~QQSummerdressFragment~	fun	floral	The words ~QQSummerdressFragment~8 are ~QQSummerdressFragment~6 ~QQSummerdressFragment~7.	98	ship schematics	embroided	across the chest.	``Awoken from the waking dreaming’’		
+~QQSummerdressFragment~	cute	caramel yellow		43	a city skyline	in the fabric	running down the back	``Destiny channel’’		
+~QQSummerdressFragment~	fresh	patterened	Simple yet practical.	62	roads and contours	stiched onto	along the hem	``Don't forget me.’’		
+~SummerdressType~	Summer dress	summer dress								
+~SummerdressType~	Picnic skirt	picnic skirt								
+~SummerdressType~	Tea dress	tea dress								
+~SummerdressType~	Skirt	knee length skirt								
+~SummerdressType~	Dress	day dress								
+										
+										
+										
+										
+										
+										
+										
+										
+										
+~BallGownTemplate~	Dress |~ClothesPriceRand~1*~QQFancyDressFragment~4| ~DressFabricComment~ ~QQFancyDressFragment~1 ~QQFancyDressFragment~2.~QQFancyDressFragment~5.									
+~QQFancyDressFragment~	the asymetrical cut exposes ones leg suggestively,	, perfect for dancing tango or foxtrot on the dancefloor		670						
+~QQFancyDressFragment~	the dress exudes power and presence	, with a plunging V neck perfect for seducing those with such interests. (+3 diplomacy checks made to distract or seduce, if applicable)		240						
+~QQFancyDressFragment~	it seems like a fairly standard cocktail dress	and embrodied with sequins and sparkly beads.		900						
+~QQFancyDressFragment~	The dress is made of sharp folds, reminiscent of Oragami	The tight fitting fabric leaves little to the imagination.		525						
+~QQFancyDressFragment~	The waistline is pulled tight by some sort of big oversized bow	. The dress is modest, inviting not TOO much attention.		160						
+~QQFancyDressFragment~	Both waterproof and spaceproof, the latest fashion in the nine-gardens	. There is a barely discernable dragon stitched into the back, in almost the same colour as the dress itself.		359						
+~QQFancyDressFragment~	Playful and fun	yet somehow there's something weirdly off with this dress. You can't put your finger on it.		450						
+										
+~BallGownTemplate~	BallGown | ~ClothesPriceRand~1*~QQRuffleGownFragment~4 | ~QQRuffleGownFragment~1. ~DressFabricComment~ ~QQRuffleGownFragment~3.~QQRuffleGownFragment~5.									
+~QQRuffleGownFragment~	An impractical looking dress		and it looks wide enough you might be able to hide an extra person underneath	670	-10 to agility,climbing and initiative.					
+~QQRuffleGownFragment~	An unweildy ballgown		, you're pretty sure you could wear body armour undeneath and no one would know	1200	-4 to agility,climbing and initiative. You're pretty sure if this thing caught fire it would be REALLY difficult to put out.					
+~QQRuffleGownFragment~	A bellbottom dress		with half a dozen pockets sewn subtley amongst the fabric. +5 slight of hand to hide things. You can retrieve hidden items as a full round action.	870	-5 to agility,climbing, initiative and stealth- the damn thing makes a weird rustling noise wherever you go.					
+~QQRuffleGownFragment~	A great flowing trumpet dress.		, you've heard this fashion is much the rage in the city of Landing.	723	-5 to agility,climbing and initiative. -2 to movement.					
+~QQRuffleGownFragment~	A many layered ballgown		. The dress is designed to waft appropriately both in zero G, and underwater.	3400	-3 to agility, climbing and initiative. -2 to movement speed. You can not run in this dress.					
+										
+										
+										
+										
+										
+~DressFabricComment~	~QQDressFabricCommentFragment~1 ~QQDressFabricCommentFragment~2 ~QQDressFabricCommentFragment~3									
+~QQDressFabricCommentFragment~	The entire thing is	an eyecatching 	silver gold							
+~QQDressFabricCommentFragment~	The dress is	a seductive 	shade of red							
+~QQDressFabricCommentFragment~	The fabric is	a calming 	green shade							
+~QQDressFabricCommentFragment~	Sewn togeather from	a delicate 	midnight blue							
+~QQDressFabricCommentFragment~	Sewn togeather from	some weird sort of	turquise							
+~QQDressFabricCommentFragment~	The entire thing is	a glossy	pure white							
+~QQDressFabricCommentFragment~	The dress is	a uninspiring	honeycomb yellow							
+~QQDressFabricCommentFragment~	The fabric is	fashionable	jet black							

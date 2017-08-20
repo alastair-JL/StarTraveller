@@ -162,18 +162,12 @@ MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=
   ShopList<-ShopList[order(Type,Price),]
   detach(ShopList)  
   row.names(ShopList)<-1:numItems
-  if(output){
-    View(ShopList)
-  }
   return(ShopList)
 }
 
 
 
 CoupledIterateGrammer<-function(String,Grammer,previous){  
-  if(seed>0){
-    set.seed(seed)
-  }
   
   if(length(grep("~",String))==0){
     return(NA)
@@ -236,14 +230,18 @@ CoupledIterateGrammer<-function(String,Grammer,previous){
 }
 
 
-CoupledGrammerIterationLoop<-function(StartString,Grammer,number=10){
-  ItemTable<- rep("TEST",number)
+CoupledGrammerIterationLoop<-function(StartString,Grammer, numItems=10,seed=0){
+  if(seed>0){
+    set.seed(seed)
+  }
+  
+    ItemTable<- rep("TEST",numItems)
   Name<- c()
   Price<- c()
   Description<- c()
   
   jjj<-1
-  while(jjj<=number){
+  while(jjj<=numItems){
     String<-StartString
     previous<-0;
     print(String)    
@@ -276,5 +274,18 @@ CoupledGrammerIterationLoop<-function(StartString,Grammer,number=10){
 }
 
 
-TrinketGrammer<-read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/TrinketGrammer.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)
+TrinketGrammer<-read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/contents.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)
+
+TrinketGrammer<-rbind(TrinketGrammer,
+      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/books.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/books.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/clothes.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/deeds.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/mundane.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/novels.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
 
