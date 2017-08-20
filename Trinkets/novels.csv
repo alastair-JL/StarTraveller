@@ -86,8 +86,8 @@ Template;1;2;3;4;5;6;7;8;9;10
 ;;;;;;;;;;
 ;;;;;;;;;;
 ;;;;;;;;;;
-~NovelTemplate~;“~DetectiveTitle~”. ~NovelCost~. ~DetBlurb~.  The Author is ~RandDetAuthor~. ;;;;;;;;;Detective
-~NovelTemplate~;“~DetectiveTitle~”. ~NovelCost~. ~DetBlurb~.  The Author is ~RandDetAuthor~. ;;;;;;;;;
+~NovelTemplate~;“~DetectiveTitle~”| ~NovelCost~| ~DetBlurb~.  The Author is ~RandDetAuthor~. ;;;;;;;;;Detective
+~NovelTemplate~;“~DetectiveTitle~”| ~NovelCost~| ~DetBlurb~.  The Author is ~RandDetAuthor~. ;;;;;;;;;
 ;;;;;;;;;;
 ~DetectiveTitle~;~DetWordA~1 of ~DetWordB~1;;;;;;;;;
 ~DetectiveTitle~;~DetWordA~2 ~DetWordB~2;;;;;;;;;

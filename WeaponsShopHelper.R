@@ -59,8 +59,8 @@ IterateSimpleGrammer<-function(EffectString,Grammer){
   m <- regexpr(pattern, EffectString)
   ThingToReplace<-  regmatches(EffectString, m)     
   if(!any(Grammer[,1]==ThingToReplace)){
-    warning(paste("thing not found",ThingToReplace) )
-    return("STOP")
+  ##  warning(paste("thing not found",ThingToReplace) )
+    return("STOP ERROR")
   }
   RowNum <- which(Grammer[,1]==ThingToReplace)   
   PossibleVals<-which(!is.na(Grammer[RowNum,]))
@@ -84,7 +84,7 @@ SimpleGrammerIterationLoop<-function(StartString,Grammer,number=10){
       returnVal<-IterateSimpleGrammer(EffectString,Grammer)
       if(returnVal=="STOP"){
         iii=9999
-      }else{    
+     }else{    
         EffectString<-returnVal        
       print(EffectString)
       }      
@@ -100,6 +100,7 @@ CleanTableWithGrammer<-function(TableToClear,Grammer){
   
   for(iii in 1:nrow(TableToClear)){
     for(jjj in 1:ncol(TableToClear)){
+  
       TableToClear[iii,jjj]= SimpleGrammerIterationLoop(TableToClear[iii,jjj],Grammer,number=1)
      } 
   }
@@ -178,7 +179,7 @@ CoupledIterateGrammer<-function(String,Grammer,previous){
   ThingToReplace<-  regmatches(String, m)    
   
   if(!any(Grammer[,1]==ThingToReplace)){ 
-    stop(paste("thing not found",ThingToReplace) )
+    return(list(paste("ERROR|0|Could not find",ThingToReplace),previous))
   }  
   
   ##This Line selects the particular instance of the thing to use.
