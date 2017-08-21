@@ -1,4 +1,4 @@
-TEMPLATE;1;2;3;4;5;6;7;8;9;10
+Template;1;2;3;4;5;6;7;8;9;10
 ~RandomItem~;~AromaTemplate~;;;;;;;;;
 ~damagingItem~;~elementalItemName~ | ~DamageItemSpeed~2 * ~elementalItemDamage~2 * ~elementalItemArea~2 * ~elementalItemelement~2 *~elementalItemUses~2 * ~elementalItemSave~2  |  Activate~DamageItemSpeed~1 to deal ~elementalItemDamage~1 to ~elementalItemArea~1. ~elementalItemSave~1. This damage counts as ~elementalItemelement~1. ~elementalItemUses~1;;;;;;;;;
 ~DamageItemSpeed~;as a standard action, prompting attacks of opportunity.;1;;;;;;;;
