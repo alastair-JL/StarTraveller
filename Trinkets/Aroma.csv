@@ -1,0 +1,24 @@
+TEMPLATE;1;2;3;4;5;6;7;8;9;10
+~RandomItem~;~AromaTemplate~;;;;;;;;;
+~AromaTemplate~;~AromaSize~1 of ~Scent~1 ~AromaMedium~1 | ~AromaSize~3 *~Scent~3 |  ~AromaSize~2 ~Scent~2 ~AromaSize~4;;;;;;;;;
+;;;;;;;;;;
+~AromaSize~;Flask;A weighty bottle of ~Scent~1 ~AromaMedium~.  ;80;Suitable for multiple minor uses. When shattered, will fill an entire room with overpowering scent.;;;;;;
+~AromaSize~;Vial;A fragile Vial of ~Scent~1 ~AromaMedium~.;25;Suitable for one or two uses. Can be shattered to scent a small area;;;;;;
+~AromaSize~;Candles;A pair of candles soaked in ~Scent~1 ~AromaMedium~1.;40;Can be burned to fill an entire room with a light scent for many hours.;;;;;;
+~AromaSize~;Soap;A block of soaped, scented like  ~Scent~1 ~AromaMedium~1.;30;When scurbbed over the skin, will leave the user coated in the scent for th entire day.;;;;;;
+~AromaSize~;Powder;A sealed bag full of powdered  ~Scent~1 ~AromaMedium~1.;73;Can dusted inside shoes and over tabletops, releasing the scent of  ~Scent~1 whenver the item is disturbed.;;;;;;
+~AromaMedium~;Essence;;;;;;;;;
+~AromaMedium~;Oil;;;;;;;;;
+~AromaMedium~;Extract;;;;;;;;;
+;;;;;;;;;;
+~Scent~;Lavender;A sweet soothing scent.;1;;;;;;;
+~Scent~;Peppermint;Smells sharp and fresh.;1;;;;;;;
+~Scent~;Rose;Gives off a rich flowery aroma.;1;;;;;;;
+~Scent~;Sandlewood;A sweet woody smell, perfect for cologne.;1;;;;;;;
+~Scent~;Orange;Citrusy!;1;;;;;;;
+~Scent~;Meat;It smells like raw steak, and not especially fresh.;1.5;;;;;;;
+~Scent~;Bug repellent;A slightly sharp noxious scent, but capable of scaring away bugs of all kinds.;2;;;;;;;
+~Scent~;Odourless ;A ~AromaMedium~ that somehow manages to blot out all smells;15;;;;;;;
+~Scent~;Dinosaur Pheremone;Sourced from only the very highest quality dinosaurs, this substance is sure to attract the attention of the whole heard.;2;;;;;;;
+~Scent~;``neurotoxic’’;Smells both sweet and salty, much like a common neurotoxin. Actually completely harmless.;5;;;;;;;
+~Scent~;Pruritus;Everyone affected feels a strong desire to itch, scratch and sneeze.;4;;;;;;;
