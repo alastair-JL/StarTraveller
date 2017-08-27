@@ -264,7 +264,7 @@ CoupledGrammerIterationLoop<-function(StartString,Grammer, numItems=10,seed=0){
     
     
     Name <-c(Name,SplitString[[1]][1])
-    Price <-c(Price,eval(parse(text=SplitString[[1]][2])))
+    Price <-c(Price,round(eval(parse(text=SplitString[[1]][2]))))
     Description <-c(Description,SplitString[[1]][3])
     
     jjj<-jjj+1
@@ -293,4 +293,3 @@ TrinketGrammer<-rbind(TrinketGrammer,
                       read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/Aroma.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
 TrinketGrammer<-rbind(TrinketGrammer,
                       read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/DamageIterm.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
-
