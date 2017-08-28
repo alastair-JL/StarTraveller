@@ -170,7 +170,7 @@ MakeWeaponShop<-function(WeaponLists, distribution=NULL, Filters=NULL, numItems=
 
 CoupledIterateGrammer<-function(String,Grammer,previous){  
   
-  if(length(grep("~",String))==0){
+  if(length(grep("~[a-z|A-Z]*~",String))==0){
     return(NA)
   }
   pattern <- "~[a-z|A-Z]*~"
@@ -179,7 +179,7 @@ CoupledIterateGrammer<-function(String,Grammer,previous){
   ThingToReplace<-  regmatches(String, m)    
   
   if(!any(Grammer[,1]==ThingToReplace)){ 
-    return(list(paste("ERROR|0|Could not find",ThingToReplace),previous))
+    return(list(paste("ERROR|",length(grep("~",String)),"|Could not find",ThingToReplace , " Inside ", String),previous))
   }  
   
   ##This Line selects the particular instance of the thing to use.
