@@ -293,3 +293,7 @@ TrinketGrammer<-rbind(TrinketGrammer,
                       read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/Aroma.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
 TrinketGrammer<-rbind(TrinketGrammer,
                       read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/DamageIterm.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/armour.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )
+TrinketGrammer<-rbind(TrinketGrammer,
+                      read.csv("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/Trinkets/ShipTrinkets.csv", sep=";",stringsAsFactors=FALSE,blank.lines.skip=FALSE)  )

@@ -6,9 +6,9 @@ output: html_document
 
 ```{r,echo=FALSE}
 library(shiny)
-source("WeaponsShopHelper.R")
+#source("WeaponsShopHelper.R")
 
-#source("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WeaponsShopHelper.R")
+source("https://raw.githubusercontent.com/alastair-JL/StarTraveller/master/WeaponsShopHelper.R")
 
 shinyUI(fluidPage(
   titlePanel("StarTraveller Shop")
@@ -19,17 +19,16 @@ shinyUI(fluidPage(
     column(2,
        numericInput("n", 
         label = "Random Seed",
-        value = 652)   
+        value = sample(1:1000, 1, replace=TRUE) )   
     )
-#  ,
-#    column(3,
-#      sliderInput("priceBounds", "N:", min = 0, max = 25, value = c(0,5),
-#                  step = 1)
-#    ),    
-#    column(3,
-#      sliderInput("ShopSize", "Items:", min = 5, max = 150, 25,
-#                  step = 1)
-#    ),    
+  ,
+    column(3,
+      actionButton("goButton", "Download Weapons")
+    ),    
+    column(3,
+      actionButton("goButton", "Download Items")
+    )
+  #,    
 #    column(3,
 #     selectInput("ShopType",
 #    choices = c("General Weapons" = 1, "Guns Shop" = 2, "Blades shop" = 3), 
@@ -41,9 +40,6 @@ shinyUI(fluidPage(
       renderDataTable({
              input$goButton
              isolate({
-                Filter=list()
-                Filter$botPrice<-min(2.5^(input$priceBounds[1]),1500)      
-                Filter$topPrice<-max(2.5^(input$priceBounds[2]),300, Filter$botPrice*5)              
                 MakeWeaponShop(GeneralWeps,numItems=20,output=FALSE,seed=input$n,Filters=NULL)
             })
       }),
