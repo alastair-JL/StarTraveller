@@ -14,7 +14,7 @@
 "~ProvisionsTemplate~";"Provisions |~QQProvisionsFragment~1 | ~QQProvisionsFragment~3,~QQProvisionsFragment~4 and ~QQProvisionsFragment~5. Enough food for ~QQProvisionsFragment~2.";;;;;;;;;
 ;;;;;;;;;;
 "~ProvisionsTemplate~";"Provisions |~QQProvisionsFragment~1. |~QQProvisionsFragment~2 worth of ~QQProvisionsFragment~3,~QQProvisionsFragment~4 and ~QQProvisionsFragment~5.";;;;;;;;;
-"~ProvisionsTemplate~";"Provisions |~QQProvisionsFragment~1*2 | ~ProvisionsSpecial~1, QQProvisionsFragment~3,~QQProvisionsFragment~4 and ~QQProvisionsFragment~5. ~ProvisionsSpecial~2. Enough supplies for ~QQprovisionsFragment~2";;;;;;;;;
+"~ProvisionsTemplate~";"Provisions |~QQProvisionsFragment~1*2 | ~ProvisionsSpecial~1, QQProvisionsFragment~3,~QQProvisionsFragment~4 and ~QQProvisionsFragment~5. ~ProvisionsSpecial~2. Enough supplies for ~QQProvisionsFragment~2";;;;;;;;;
 "~QQProvisionsFragment~";25;"Twelve days worth";"Rice";"Dried fruit";"spiced meat";;;;;
 "~QQProvisionsFragment~";30;"two weeks worth";"beans";"pinenuts";"Vitamin powders";;;;;
 "~QQProvisionsFragment~";22;"half a months";"lentils";"honeycakes";"oats";;;;;

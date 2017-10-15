@@ -264,7 +264,14 @@ CoupledGrammerIterationLoop<-function(StartString,Grammer, numItems=10,seed=0){
     
     
     Name <-c(Name,SplitString[[1]][1])
-    Price <-c(Price,round(eval(parse(text=SplitString[[1]][2]))))
+    priceToAdd<-eval(parse(text=SplitString[[1]][2]))
+    if(is.numeric(priceToAdd)){
+      priceToAdd<-round(priceToAdd)
+    }else{
+      priceToAdd<-  -3  #SplitString[[1]][2]
+    }
+      
+    Price <-c(Price,priceToAdd)
     Description <-c(Description,SplitString[[1]][3])
     
     jjj<-jjj+1
