@@ -280,3 +280,13 @@
 ;;;;;;;;;;
 ;;;;;;;;;;
 "~ShipCustomisation~";"Acoustic padding| 450 | Install in a single room (Probably a theatre or throne room) to grant all speakers in that room +2 command and entertain.";;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+"~CoolantFilter~";"Kings, Queens, and Jacks";1;;;;;;;;
+"~CoolantFilter~";"nines";1;;;;;;;;
+"~CoolantFilter~";"twos and sixs";2;;;;;;;;
+"~CoolantFilter~";"Aces and fours";1.6;;;;;;;;
+"~CoolantFilter~";"sevens and eights";4;;;;;;;;
+"~CoolantFilter~";"twos, threes and fours";4;;;;;;;;
+"~CoolantFilter~";"Aces";0.2;;;;;;;;
+"~CoolantFilter~";"fives";0.8;;;;;;;;
