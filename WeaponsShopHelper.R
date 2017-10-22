@@ -192,7 +192,7 @@ CoupledIterateGrammer<-function(String,Grammer,previous){
       RowNumT<-sample(c(intersect(RowNum,previous),intersect(RowNum,previous)),1)    
     }else{    
       RowNumT<-sample(c(RowNum,RowNum),1)
-    }    
+    }
     previous<c(previous,RowNumT)         
     String<-gsub(pattern= paste0(ThingToReplace,"1"),replacement=Grammer[RowNumT,2],x= String)
     String<-gsub(pattern= paste0(ThingToReplace,"2"),replacement=Grammer[RowNumT,3],x= String)
@@ -225,7 +225,9 @@ CoupledIterateGrammer<-function(String,Grammer,previous){
     String<-sub(pattern= paste0(ThingToReplace,"8"),replacement=Grammer[RowNumT,9],x= String)
     RowNumT<-sample(c(RowNum,RowNum),1)
     String<-sub(pattern= paste0(ThingToReplace,"9"),replacement=Grammer[RowNumT,10],x= String)    
-  }
+    RowNumT<-sample(c(RowNum,RowNum),1)
+    String<-sub(pattern= paste0(ThingToReplace,""),replacement=Grammer[RowNumT,1],x= String)    
+    }
   
   return(list(String,previous))
 }
