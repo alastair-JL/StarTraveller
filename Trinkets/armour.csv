@@ -100,7 +100,7 @@
 ;;;;;;;;;;
 ;;;;;;;;;;
 ;;;;;;;;;;
-"~HeavyArmourName~";"~HeavyArmourWord~2 ~QQLightArmourNumber~";;;;;;;;;
+"~HeavyArmourName~";"~HeavyArmourWord~2 ~QQLightArmourNumber~1";;;;;;;;;
 ;;;;;;;;;;
 "~ShieldTemplate~";"~LongShieldName~ | 100*~LongShieldPower~2 * ~LongShieldEffect~2*~LongShieldDuration~2 | ~LongShieldDescribe~. ~LongShieldDuration~1 ~LongShieldPower~1 ~LongShieldEffect~1";;;;;;;;;
 "~LongShieldPower~";"+1";1;;;;;;;;
@@ -144,7 +144,7 @@
 "~LongShieldPhrase~";"combat forcefield";;;;;;;;;
 ;;;;;;;;;;
 ;;;;;;;;;;
-"~LongShieldName~";"AngelGlow ~QQLightArmourNumber~";;;;;;;;;
+"~LongShieldName~";"AngelGlow ~QQLightArmourNumber~1";;;;;;;;;
 "~LongShieldName~";"~QQLightArmourNumber~1  Benevolance";;;;;;;;;
 "~LongShieldName~";"~QQLightArmourNumber~1  Prismatic";;;;;;;;;
 "~LongShieldName~";"~QQLightArmourNumber~1 Merciful";;;;;;;;;
